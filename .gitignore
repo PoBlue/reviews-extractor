@@ -1,0 +1,5 @@
+example-data
+.vscode
+*.DS_Store
+*__pycache__
+data.py
