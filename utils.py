@@ -1,5 +1,6 @@
 import json
 import csv
+import glob, os
 
 # save json data to file
 def save_data_to_path(path, data):
@@ -25,3 +26,11 @@ def export_csv(_headers, _rows, _path):
         f_csv = csv.writer(f)
         f_csv.writerow(_headers)
         f_csv.writerows(_rows)
+
+
+def list_file_name_with_extension(path, extension):
+    """list all file name with extension"""
+    os.chdir(path)
+    files = glob.glob("*.%s"%(extension)) 
+    return files
+
