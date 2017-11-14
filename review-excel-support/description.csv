@@ -1,0 +1,362 @@
+id,user_id,archive_url,general_comment,language,project_id,project_name,grader_name,review_url,is_training,result_reason,created_at,completed_at
+786705,133475,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/786705/submission_content.zip,Great work with the first submission! The project requires a few minors additions and it will be perfect.,en-us,264,Market your Content,Shubham,https://review.udacity.com/#!/reviews/786705,False,,2017-10-09T13:51:48.024Z,2017-10-09T15:37:28.324Z
+542745,145891,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/542745/submission_content.zip,"Congratulations on successfully completing this project! :tada:
+You did a great job here! The answers were concise and accurate!
+Keep making progress and all the best for your future projects!",en-us,187,Analyze Bay Area Bike Share Data,River,https://review.udacity.com/#!/reviews/542745,False,,2017-06-09T14:23:53.361Z,2017-06-09T15:31:56.551Z
+590163,98355,,"Hi! 
+
+You wrote in your note that you don't understand how to use Github - Well we have good news for you! 
+
+Udacity has a free course titled ""How to Use Git and GitHub"".
+
+You can find it here:
+https://www.udacity.com/course/how-to-use-git-and-github--ud775",en-us,52,GitHub Profile Review,Arcadius Kazimierski,https://review.udacity.com/#!/reviews/590163,False,,2017-07-05T22:27:22.996Z,2017-07-05T23:01:22.099Z
+510853,85259,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/510853/Kidnapped_Vehicle_Project_Vatche_Donikian.zip,"Congratulations on completing this C++ project! You should be satisfied with what you have achieved.
+
+Best of luck with the PID project and the rest of Term 2!
+
+In case you are interested, this is a [paper](http://robots.stanford.edu/papers/thrun.pf-in-robotics-uai02.pdf) Sebastian Thrun authored on particle filters and how they could be used to perform robot localisation.
+
+**NB**: *The nature of this project and rubric means that elements of this review will be similar or identical to the reviews for other students. Please rest assured that I have looked through all of the code you have written and submitted looking for issues with your implementation and places where I could suggest improvements.*",en-us,292,Kidnapped Vehicle,Edward,https://review.udacity.com/#!/reviews/510853,False,,2017-05-22T22:10:47.614Z,2017-05-22T22:42:55.976Z
+594454,60862,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/594454/Resubmit.zip,"Congrats!!. These days buzz about attention based RNN. Hope you enjoy the following resources.
+[Exploring LSTMs](http://blog.echen.me/2017/05/30/exploring-lstms/)
+[ATTENTION AND MEMORY IN DEEP LEARNING AND NLP](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)
+[Encoder-Decoder Sequence-to-Sequence Architecture](http://www.deeplearningbook.org/contents/rnn.html)",en-us,293,Translation From One Language to Another Language,Pradeep,https://review.udacity.com/#!/reviews/594454,False,,2017-07-08T04:56:46.044Z,2017-07-08T05:30:22.851Z
+575292,103387,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/575292/Project_Quiz_App.zip,"## About your app
+
+Your app is good!
+Congrats!
+
+However, it needs some fixes about the Else statement, okay?
+
+I did some observations in the section Code Review to guide you in your next submission.
+I hope they can help you.
+
+## Please don't upload build folder
+
+Also, I ask you to please don't upload the folder **build** when submitting again your project, because this folder is not necessary for me testing the app. I just need the source code files. Also, this **build** folder makes the upload too heavy.
+
+## Answer to your question
+
+Do you know if this has happened before to someone else, and what could be the solution? :D
+
+**Answer:** I never heard anything about that. I hope it never happen with you again.
+
+---
+
+Good luck in your next submission!
+Stay :udacious:!",en-us,158,Quiz App,graffiti75,https://review.udacity.com/#!/reviews/575292,False,,2017-06-27T21:01:44.151Z,2017-06-27T21:46:17.856Z
+531070,87550,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/531070/frontend-nanodegree-arcade-game_Patel.zip,":smile: CONGRATULATIONS!  You have created a game that works well and is fun to play!  You did a great job implementing Object Oriented JavaScript when you created your `Player` and `Enemy` Classes and you make good use of the `requestAnimationFrame`method and the  HTML5 `canvas` element.
+	
+Good Luck and Happy Coding!	
+
+*I hope you have found this review helpful.  If you see something that isn't correct, please let me know – I'm always trying to be a better reviewer.*:sunglasses:",en-us,15,Classic Arcade Game Clone,Sarah,https://review.udacity.com/#!/reviews/531070,False,,2017-06-02T20:08:19.597Z,2017-06-02T21:45:01.096Z
+533626,136702,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/533626/archive.zip,"Dear student, 
+
+well done addressing the last remaining issue, you made it for a very good submission. I’ve posted some pro tips for you in case you might want to learn more about some specific topics (you might be interested in the one regarding the nearest neighbors).
+
+
+Congratulations on passing you exam!",en-us,103,Predicting Boston Housing Prices,Luca,https://review.udacity.com/#!/reviews/533626,False,,2017-06-04T13:20:31.957Z,2017-06-04T13:47:21.843Z
+517953,37380,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/517953/VirtualTourist.zip,,en-us,22,Virtual Tourist,Spiros,https://review.udacity.com/#!/reviews/517953,False,,2017-05-26T13:29:51.069Z,2017-05-26T14:49:36.424Z
+557009,111895,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/557009/HC_Project1.zip,"You did a good job on most of the coding part of the project except a minor mistake mentioned below. There is a room for improvement in hyperparameter optimization. Just fiddle a bit with hyperparameters as per guidelines given in respective sections. Also note that apart from validation loss, training time is also an important factor in deciding hyperparameters. 
+
+Also, next time write down your thoughts regarding model in ""Thinking about your results"" section.
+Here some questions to get a better understanding of your model:
+
+What do you think of the Christmas period?
+How many times was this period on the training set?
+Do you think that the model can learn special features only by seeing an event one time?
+
+Nice first attempt. The next round will be perfect ;)
+Keep up with the good work!",en-us,274,Your first neural network,Harshit,https://review.udacity.com/#!/reviews/557009,False,,2017-06-17T22:21:58.714Z,2017-06-18T08:12:07.700Z
+591791,78732,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/591791/AIND-Recognizer.zip,"Hello Student,
+Congratulation, you have accomplished the final project of AIND Term 1!!
+It is truly unbelievable that you can finish the project in the first attempt and best thing is you can list down most of the coding process clearly. Keep it Up!
+Have a Good Day and nice AI Learning!",en-us,276,Build a Sign Language Recognizer,Reza,https://review.udacity.com/#!/reviews/591791,False,,2017-07-06T19:00:06.223Z,2017-07-07T03:02:38.677Z
+765126,129502,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/765126/submission_content.zip,Seu projeto está bom porém surgiram alguns pontos de revisão. Confira o pdf anexo para mais informações.,pt-br,280,Market with Email,André,https://review.udacity.com/#!/reviews/765126,False,,2017-09-27T23:24:28.843Z,2017-09-28T19:45:55.830Z
+518408,72207,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/518408/CarND-UKF-Sub1.zip,"Hi,
+This is a very good submission of this project. Well done. Please keep up the good work.
+* I'd like to invite you to look at this link to this documents on UKF. I personally use it a lot in order to better understand these filters.
+https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf",en-us,284,Unscented Kalman Filters,William jordan,https://review.udacity.com/#!/reviews/518408,False,,2017-05-26T19:19:38.889Z,2017-05-26T19:49:45.940Z
+519960,111252,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/519960/NewsApp.zip,"Congratulations!
+You have done a very good job with this project, keep on working like this!",en-us,165,News App,Amparo,https://review.udacity.com/#!/reviews/519960,False,,2017-05-27T20:52:38.550Z,2017-05-27T21:18:41.269Z
+520772,97226,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/520772/NEWSAPP.zip,"You did a good job here, congratulations! :clap:
+ 
+Just a few things that are always good to keep in mind:
+- Always, **always** [clean up your project](https://docs.google.com/document/d/1eYvuXY7GRE6VQpq4Rp-KotU1ti-JEySN1KdyKwjhzEQ/pub?embedded=true) and also add some files to gitignore (if you are using Git :octocat:, of course). This way your configurations and private data won't be shared. Read this discussion about it on [StackOverflow](http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project) and a [great tool](https://www.gitignore.io/)!
+- [Inspect your code](https://developer.android.com/studio/write/lint.html#manuallyRunInspections)! You will find some issues that you can easily fix and make your project better!
+- Discover and use new [libraries](https://github.com/codepath/android_guides/wiki/Must-Have-Libraries)!
+If you have any question, don't hesitate using the [Discussion Forum](https://discussions.udacity.com/) or set up a [1:1 appointment](https://calendly.com/and-1-1)
+ 
+ 
+I hope you like this review and that your Nanodegree can be fun and rewarding to you! :blush:
+ 
+Stay :udacious:",en-us,165,News App,Erickson Santos,https://review.udacity.com/#!/reviews/520772,False,,2017-05-28T10:07:54.024Z,2017-05-28T10:30:18.316Z
+517952,120997,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/517952/movie_website.zip,恭喜你！顺利地完成了本项目！相信你对之后项目也会更有信心，加油！ : ),zh-cn,79,Create a Movie Website,Qiang,https://review.udacity.com/#!/reviews/517952,False,,2017-05-26T13:29:10.876Z,2017-05-26T22:45:26.251Z
+529816,123910,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/529816/tv-script-generation.zip,"Nice job, you're a champ!  :muscle:
+
+[Here's a discussion](https://www.reddit.com/r/MachineLearning/comments/3psqil/sentence_to_sentence_text_generation_using_lstms/) on LSTMs for language generation if you're interested in reading more.
+![homer_dance.gif](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/40906/1490744917/homer_dance.gif)",en-us,286,Generate TV Scripts,Nate,https://review.udacity.com/#!/reviews/529816,False,,2017-06-02T02:28:50.755Z,2017-06-02T02:51:21.913Z
+550466,146702,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/550466/archive.zip,"Overall this is an outstanding submission ! Well done on completing your first neural network :)
+
+The model is a bit overfitted to correctly classify the holiday period. One reasonable answer is the model fails to generalize the Christmas period (aka Holiday period) because it has seen this period only once before (Dec 2011).",en-us,274,Your first neural network,Shubham,https://review.udacity.com/#!/reviews/550466,False,,2017-06-14T02:21:17.406Z,2017-06-14T05:26:43.686Z
+549558,112270,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/549558/Luxor_Map.zip,,en-us,17,Neighborhood Map,none,https://review.udacity.com/#!/reviews/549558,False,"Found 8 JSHint Errors in file: Luxor_Map/js/app.js
+
+
+Error:I001 on line: 5 - Comma warnings can be turned off with 'laxcomma'.
+Error:W014 on line: 4 - Misleading line break before ','; readers may interpret this as an expression boundary.
+Error:W014 on line: 5 - Misleading line break before ','; readers may interpret this as an expression boundary.
+Error:W014 on line: 6 - Misleading line break before ','; readers may interpret this as an expression boundary.
+Error:W014 on line: 7 - Misleading line break before ','; readers may interpret this as an expression boundary.
+Error:W014 on line: 8 - Misleading line break before ','; readers may interpret this as an expression boundary.
+Error:W004 on line: 30 - 'venue_Id' is already defined.
+Error:W032 on line: 126 - Unnecessary semicolon.
+",2017-06-13T16:18:29.739Z,2017-06-13T16:18:45.721Z
+534879,139790,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/534879/OpenStreetMap_Project.zip,"The project is already very well done and only requires some small tweaks required by the project guidelines.  I have made suggestions in the appropriate evaluation field.  Once these areas are addressed, the project should be complete and ready for portfolio submission.  Keep up the great work, you are almost there!
+ 
+>""Genius is one percent inspiration and ninety-nine percent perspiration.""
+ 
+-- Thomas Alva Edison",en-us,25,Wrangle OpenStreetMap Data,Miadad,https://review.udacity.com/#!/reviews/534879,False,,2017-06-05T03:08:43.129Z,2017-06-06T03:06:03.813Z
+591460,143134,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/591460/BookListingApp.zip,"Awesome job here, you've got all the building blocks in place and they are all playing nicely together.  The only problems we have right now are that we're throwing `JSONExcepitons` when parsing data and there is an issue with the internet check.  Have a look at my comments in the code review, give it a shot, and resubmit when ready :smile:  Keep up the good work!",en-us,164,Book Listing,Alex,https://review.udacity.com/#!/reviews/591460,False,,2017-07-06T15:57:23.479Z,2017-07-06T20:25:52.660Z
+569245,105993,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/569245/p9-pid-submit.zip,"Great work so far on implementing your PID controller! However, your car did leave the road and so there is still some work in terms of tuning further that can be done. I have provided a reference to help with this.
+
+Keep up the hard work and stay Udacious!",en-us,289,PID Controller,Kyle,https://review.udacity.com/#!/reviews/569245,False,,2017-06-24T17:08:00.067Z,2017-06-24T18:44:22.739Z
+552667,142830,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/552667/report_cv.zip,,en-us,53,Resume Review (Entry-level),Joshwa,https://review.udacity.com/#!/reviews/552667,False,Please upload a PDF version of your resume.,2017-06-15T07:36:43.752Z,2017-06-15T08:15:46.924Z
+576115,97065,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/576115/Stage_3__Final_Project_Updated_.zip,"Congrats for passing the project:clap:
+For understanding the how and why of Python code writing, I strongly recommend trying [pythonchallenge](http://www.pythonchallenge.com/) for fun and deeper understanding of python philosophy:yum:",en-us,83,Code Your Own Quiz,Huang,https://review.udacity.com/#!/reviews/576115,False,,2017-06-28T07:14:52.701Z,2017-06-30T07:28:12.466Z
+508858,63202,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/508858/VR.zip,,en-us,258,The Protagonist's Journey,Vlad,https://review.udacity.com/#!/reviews/508858,False,,2017-05-21T22:59:45.102Z,2017-05-21T23:30:07.662Z
+521373,101178,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/521373/courtcounter.zip,"You did a good job so far! :+1:
+ 
+There are only some minor changes that need to be addressed, I have pointed them in your code. After this, I think you are good to go. Thus, please, make the required changes and resubmit your project.
+ 
+Keep working hard and best of luck on your next submission!",en-us,157,Score Keeper,Erickson Santos,https://review.udacity.com/#!/reviews/521373,False,,2017-05-28T17:48:09.411Z,2017-05-28T18:08:13.009Z
+662969,167820,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/662969/my-first-project.html.zip,"### Excellent submission. Keep on keeping on. One step at a time!
+
+A quote I like to encourage myself with when facing difficult problems and sticking with it.
+
+*""It's not that I'm so smart, it's just that I stay with problems longer.""* - Albert Einstein.",en-us,47,Getting Started with HTML,Patrick_k_o,https://review.udacity.com/#!/reviews/662969,False,,2017-08-08T19:11:46.163Z,2017-08-08T20:03:13.246Z
+528426,119947,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/528426/Pitch_perfect.zip,Hi. have you uploaded to correct version of the code - it has same issues as the previous two. If you're using GitHub​ maybe try to archive project and resubmit it again,en-us,19,Pitch Perfect,KrzysztofB,https://review.udacity.com/#!/reviews/528426,False,,2017-06-01T08:09:07.111Z,2017-06-01T08:53:07.931Z
+589503,99304,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/589503/submission_content.zip,"* Great work in completing this submission and all its requirements as well. Good.
+* Refer to annotations for comments and suggestions.
+* Keep doing the good work. :thumbsup:",en-us,279,Evaluate a Display Ad Campaign,Ayush,https://review.udacity.com/#!/reviews/589503,False,,2017-07-05T16:11:17.754Z,2017-07-05T16:38:08.136Z
+515860,137132,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/515860/submission_content.zip,"Hi!
+
+You have put together an excellent submission. Besides few additions that we need to make, the rest of your submission has been a delight for me and I have thoroughly enjoyed going through every section of your submission. I have included some resources and comments, and would kindly request you to take a look at them and try to take some pointers that might not have been covered in the course of this project. This change shouldn't take long, as soon as you are done with this, you will be all set :)
+
+(Refer to the attached annotation for required changes, comments, and suggestions)",en-us,263,Prepare to Market,Parth,https://review.udacity.com/#!/reviews/515860,False,,2017-05-25T09:05:44.665Z,2017-05-25T10:22:36.305Z
+537291,108896,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/537291/archive.zip,"You have done a very good job and you have improved your project! Now there are only a few details to fix to meet all specifications :)
+
+Keep up the good work!",en-us,163,Inventory App,Noemí,https://review.udacity.com/#!/reviews/537291,False,,2017-06-06T10:51:12.332Z,2017-06-06T15:41:20.817Z
+598611,106002,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/598611/3_Creating_Customer_Segments_final.zip,"Dear student,
+
+Even though you need to revise answers to a few questions, this is a very good first attempt.
+I hope that the hints and the reading material given in this review will help you meet most of the specifications in your next submission.
+
+Keep up the hard work! :thumbsup:",en-us,105,Creating Customer Segments,Kumar,https://review.udacity.com/#!/reviews/598611,False,,2017-07-10T07:04:42.177Z,2017-07-10T08:09:23.242Z
+537252,95488,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/537252/Quizz.zip,Congratulations! Your submission meet all the specifications. :clap:,en-us,158,Quiz App,Eko,https://review.udacity.com/#!/reviews/537252,False,,2017-06-06T10:11:39.271Z,2017-06-06T11:42:57.598Z
+574109,131080,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/574109/AIND-Recognizer.zip,"Hello Student,
+The first submission here is quite outstanding especially the final WER can reach `0.52`. However, there was something required to amend in the Q2 discussion part. I am sure you could easily get it done soon. 
+Have a Good Day and nice AI Learning!",en-us,276,Build a Sign Language Recognizer,Reza,https://review.udacity.com/#!/reviews/574109,False,,2017-06-27T06:44:01.998Z,2017-06-27T09:13:44.169Z
+553606,120861,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/553606/MusicStructureApp_reworked.zip,Excellent improvements in the project. One item to go--the Payment Activity--something that we both apparently overlooked before. This won't take you long...,en-us,159,Musical Structure,Jay,https://review.udacity.com/#!/reviews/553606,False,,2017-06-15T20:19:19.354Z,2017-06-18T05:59:23.734Z
+519911,119046,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/519911/Aaron_Guidry_-_Online_Resume.zip,,en-us,13,Online Resume,none,https://review.udacity.com/#!/reviews/519911,False,"Found 6 JSHint Errors in file: js/resumeBuilder.js
+
+
+Error:W033 on line: 40 - Missing semicolon.
+Error:W033 on line: 43 - Missing semicolon.
+Error:W033 on line: 122 - Missing semicolon.
+Error:W033 on line: 195 - Missing semicolon.
+Error:W004 on line: 287 - 'formattedSchoolName' is already defined.
+Error:W033 on line: 303 - Missing semicolon.
+",2017-05-27T20:16:34.016Z,2017-05-27T20:17:09.043Z
+558158,108430,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/558158/submission_content.zip,Well done doing cluster analysis! :clap:,en-us,231,International Expansion,Erik,https://review.udacity.com/#!/reviews/558158,False,,2017-06-18T16:31:54.883Z,2017-06-18T17:27:10.821Z
+557777,148030,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/557777/mockup-to-article.zip,"Congratulations on finishing the project :fireworks:!!
+
+There are many great additional resources for learning HTML online. Here is a list of a few of the best:
+
+- [MDN's guide to HTML][1].
+- [MDN's guide to HTML Elements][2].
+- [Udacity's Style Guide for HTML][3].
+- [W3 HTML Validator][4].
+- [HTML5 specification][5] - which is not a bad place to learn HTML really.
+
+It is especially useful to use the HTML validator, as it checks your HTML and makes sure there are no errors.
+
+Keep up the good work.
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+[3]: https://udacity.github.io/frontend-nanodegree-styleguide/
+[4]: https://validator.w3.org/nu/#textarea
+[5]: https://www.w3.org/TR/html5/
+
+:information_source: Remember to open the Code Review tab to check out the review comments! You can also get there by clicking the button at the bottom of the page:
+
+![Screen Shot 2017-01-04 at 20.58.07.png](https://udacity-github-sync-content.s3.amazonaws.com/_attachments/1755/1483560501/Screen_Shot_2017-01-04_at_20.58.07.png)",en-us,145,Article to Mockup,Mikkel,https://review.udacity.com/#!/reviews/557777,False,,2017-06-18T11:03:54.070Z,2017-06-18T11:11:00.277Z
+547976,124273,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/547976/submission_content.zip,Good effort! The project just needs a bit of fine tuning and it will meet all the specifications.,en-us,267,Conduct an SEO Audit,Archit,https://review.udacity.com/#!/reviews/547976,False,,2017-06-12T20:20:10.699Z,2017-06-12T20:37:02.445Z
+578223,129845,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/578223/RapQuiz.zip,Great work! Done in the first try :+1: You are ready for the next challenge :wink:,en-us,158,Quiz App,imarneanu,https://review.udacity.com/#!/reviews/578223,False,,2017-06-29T12:08:57.315Z,2017-06-29T14:38:21.801Z
+573654,136492,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/573654/archive.zip,,en-us,45,Build a Portfolio Site,Mani,https://review.udacity.com/#!/reviews/573654,False,,2017-06-27T01:36:12.240Z,2017-06-27T08:38:24.291Z
+527224,59696,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/527224/logs_2.zip,"You are almost there! You just need to add a couple details to your README and you are all set.
+
+Keep up the great work!",en-us,195,Logs Analysis,Christopher,https://review.udacity.com/#!/reviews/527224,False,,2017-05-31T18:26:47.698Z,2017-05-31T20:01:19.074Z
+579519,132982,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/579519/Neighborhood_4sq.zip,,en-us,17,Neighborhood Map,Sang,https://review.udacity.com/#!/reviews/579519,False,,2017-06-30T03:35:42.287Z,2017-06-30T04:05:14.160Z
+550822,100186,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/550822/project_4.zip,"Congratulations on completing this project! You did a great job so far.
+Now, get ready for the next one!",en-us,293,Translation From One Language to Another Language,MarioNuevo,https://review.udacity.com/#!/reviews/550822,False,,2017-06-14T06:57:48.198Z,2017-06-14T07:37:51.417Z
+734566,180348,,,en-us,228,Diamond Prices,none,https://review.udacity.com/#!/reviews/734566,False,,2017-09-13T16:58:40.485Z,
+573948,127711,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/573948/submission_content.zip,"Great work with the submission!
+Please find the annotated file, there are a few suggestion to improve your submission even further.",en-us,264,Market your Content,Shubham,https://review.udacity.com/#!/reviews/573948,False,,2017-06-27T04:44:42.489Z,2017-06-27T08:27:51.000Z
+558032,72889,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/558032/Start.zip,"在网页呈现方面你做得非常不错，不过按照项目要求还需要使用 *语义标签* 来组织代码，需要修改一下。:)
+期待下一次的项目提交～",zh-cn,45,Build a Portfolio Site,Joe,https://review.udacity.com/#!/reviews/558032,False,,2017-06-18T14:59:38.631Z,2017-06-18T16:19:17.065Z
+511437,85012,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/511437/a_movies__1_.zip,"You've completed the first project of your Nanodegree and are well on your way to becoming a FullStack Developer! Congrats!
+
+I've written a post that includes a number of resources for learning and mastering Python. Hopefully, this will be helpful for you as you complete the rest of the NanoDegree. https://discussions.udacity.com/t/python-learning-resources/158996
+
+Keep learning and Stay Udacious :smile:",en-us,2,Movie Trailer Website,Kirk,https://review.udacity.com/#!/reviews/511437,False,,2017-05-23T04:30:02.603Z,2017-05-29T08:33:55.862Z
+581131,127481,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/581131/finding_donors.zip,"Dear student
+
+Great start on this project! You've clearly understood the material from the tutorials and you've done a great job applying it to this real-world dataset. I've noted a few small issues that you should address in the report and code, but these shouldn't take long to fix. Once the project is updated, you should be passing with flying colors. Almost there...keep going!
+
+Cheers!",en-us,234,Finding Donors for CharityML,student,https://review.udacity.com/#!/reviews/581131,False,,2017-07-01T04:48:22.683Z,2017-07-01T17:28:02.949Z
+588468,147603,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/588468/archive.zip,"Hi, a very good idea to send in your submission: Review are not only there to check off the assignments but also to help when you get stuck. You already did some great work in this project and the reason for the error in the conv_net function is quite .... well, have a look at the feedback I wrote with the items you implemented. I'm sure you'll see for yourself what went wrong. After that you only need to implement the Neural Network Training section. I'm convinced you'll be able to complete that quite soon. Good luck!",en-us,275,Object Classification,Jeroen,https://review.udacity.com/#!/reviews/588468,False,,2017-07-05T02:49:32.051Z,2017-07-05T05:55:32.422Z
+596319,7064,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/596319/udacity-neighborhood-map.zip,,en-us,17,Neighborhood Map,Sang,https://review.udacity.com/#!/reviews/596319,False,,2017-07-09T05:13:28.883Z,2017-07-09T06:04:15.671Z
+586525,123526,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/586525/NewsApp.zip,"The project is very good quality overall and I really liked it.
+
+All the requirements have been fully satisfied!
+There are few suggestions you should follow to make it even better.
+
+Have you watched “what is new in Android in 2017? https://www.youtube.com/watch?v=1N9KveJ-FU8&t=1059s”
+
+
+Keep up the good work
+Thanks",en-us,165,News App,Lucali,https://review.udacity.com/#!/reviews/586525,False,,2017-07-04T03:35:29.499Z,2017-07-04T04:05:23.152Z
+513276,137622,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/513276/submission_content.zip,Parabéns! Você fez um bom trabalho :),pt-br,263,Prepare to Market,Marcos,https://review.udacity.com/#!/reviews/513276,False,,2017-05-24T00:53:36.315Z,2017-05-24T01:15:43.759Z
+534191,21270,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/534191/submission_content.zip,"You are off to a very good start. WIth a few adjustments and additions, you will have it. Keep up the good work!",en-us,267,Conduct an SEO Audit,Simply Spoke,https://review.udacity.com/#!/reviews/534191,False,,2017-06-04T19:37:43.679Z,2017-06-04T20:40:47.421Z
+536952,101385,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/536952/upload.zip,,zh-cn,293,Translation From One Language to Another Language,none,https://review.udacity.com/#!/reviews/536952,False,,2017-06-06T05:04:04.729Z,2017-06-07T06:05:52.222Z
+570129,54484,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/570129/website.zip,"### Good job!
+You web page is clean and well structured. Your color is attractive and your style is very interesting. It's very clean and comfortable to read.
+
+ It would be better if you improve the indentation. You can see about it [here](http://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#best-method-indent-textcontent-).
+
+Overall is awesome. Thank you for your submission and Keep up on your good works. Remember that you're on the right track!
+
+Let's move on to the next lesson! :rocket:",en-us,8,Make a Web Page,Nut,https://review.udacity.com/#!/reviews/570129,False,,2017-06-25T07:13:52.882Z,2017-06-25T12:12:40.154Z
+515746,3003,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/515746/Project5.zip,"Great start implementing your functions and network! :blush: However, your final output isn't realistic enough yet. You are almost there. Take a look at my suggestions below and then you should see some improvements to your network!
+* If you are interested in additional resources to learn even more about GANS (and CNNS/RNNS), I've included a few resources below:
+http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them
+https://arxiv.org/pdf/1511.06434.pdf
+https://www.youtube.com/watch?v=YpdP_0-IEOw
+http://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+https://medium.com/intuitionmachine/deep-adversarial-learning-is-finally-ready-and-will-radically-change-the-game-f0cfda7b91d3
+http://web.stanford.edu/class/cs224n/
+https://github.com/oxford-cs-deepnlp-2017/lectures
+https://www.slideshare.net/ThomasDaSilvaPaula/a-very-gentle-introduction-to-generative-adversarial-networks-aka-gans-71614428
+https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f
+http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/
+http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
+https://deephunt.in/the-gan-zoo-79597dc8c347
+http://cs231n.github.io/transfer-learning/
+http://ruishu.io/2016/12/27/batchnorm/
+http://www.deeplearningbook.org/
+
+Best of luck on your next submission!  :udacious:",en-us,301,Generate Faces,Dean,https://review.udacity.com/#!/reviews/515746,False,,2017-05-25T06:59:42.200Z,2017-05-25T07:27:18.403Z
+582815,136640,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/582815/customer_segments.zip,"You have made a definite improvement over the previous submission, and are very close to completion!
+Keep at it!",en-us,105,Creating Customer Segments,Kumar,https://review.udacity.com/#!/reviews/582815,False,,2017-07-02T07:21:40.903Z,2017-07-02T08:04:57.267Z
+596518,147794,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/596518/archive.zip,"## Awesome
+You did really great! First submission and you did it. Congratulations!
+About the performance of the network it is good. If you reduce the number of layers and nodes it maybe able to converge faster but the final performance of the network should be reduced.
+## Suggestion
+Here there is a great blog post about Conv Nets: http://colah.github.io/posts/2014-07-Conv-Nets-Modular/
+Great article about CNN: http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf
+I recommend checking the Google Python Style Guide, there are great tips about how to improve coding, in general: https://google.github.io/styleguide/pyguide.html",en-us,275,Object Classification,Ivan,https://review.udacity.com/#!/reviews/596518,False,,2017-07-09T08:33:23.389Z,2017-07-09T11:14:35.845Z
+571820,143988,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/571820/archive.zip,,en-us,45,Build a Portfolio Site,Sang,https://review.udacity.com/#!/reviews/571820,False,"Hi there
+
+Please organize the project folder as required in the previous review, as well as delete all redundant files from the project and re-submit.
+
+Thanks and happy learning!",2017-06-26T03:35:09.790Z,2017-06-26T08:56:43.241Z
+546745,60529,,,en-us,312,Visualizing Movie Data - Data Analyst (Basic),none,https://review.udacity.com/#!/reviews/546745,False,Transport to same project with different project id.,2017-06-12T04:15:38.883Z,2017-06-12T04:15:38.884Z
+502335,126079,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/502335/submission_content.zip,Excelente trabalho! Ficamos no aguardo para ver os resultados da sua campanha. Boa sorte e parabéns!,pt-br,265,Create a Facebook Campaign,Fares,https://review.udacity.com/#!/reviews/502335,False,,2017-05-17T23:54:28.417Z,2017-05-19T23:33:42.047Z
+533653,142048,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/533653/archive.zip,"Really nice job with this submission.  Your project meets all the specifications. Congratulations on passing the first project in the Self Driving Car Nanodegree on your very first attempt and best of lucks in the ones ahead.
+Cheers and Keep up the good work !!!
+
+
+Here are some links for further improvements:
+https://www.youtube.com/watch?v=hnXkCiM2RSg&feature=youtu.be
+https://www.python.org/dev/peps/pep-0008/
+http://stackoverflow.com/questions/36598897/python-and-opencv-improving-my-lane-detection-algorithm",en-us,206,Finding Lane Lines on the Road,Tepa,https://review.udacity.com/#!/reviews/533653,False,,2017-06-04T13:44:53.680Z,2017-06-04T14:18:17.754Z
+593720,104984,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/593720/archive.zip,,en-us,17,Neighborhood Map,Udayan,https://review.udacity.com/#!/reviews/593720,False,"Hello, 
+
+Your project was escalated to me because your reviewer is concerned about your progress with the project. 
+
+It looks like you've introduced some new bugs and issues with your latest version of the application:
+
+1) The filter bar overflows the screen and is inaccessible/unusable on mobile:
+
+![filterinvisible.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/1079/1499464137/filterinvisible.png)
+
+2) Additional location details were not provided for *all* locations:
+
+![undefinedrooftop.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/1079/1499464185/undefinedrooftop.png)
+
+In this submission, this was resolved by omitting the 
+details from that infowindow altogether. Now it only reads the 
+name of the location, which is not the desired behavior:
+
+![empty-rooftop.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/1079/1499464226/empty-rooftop.png)
+
+3) Additionally, in the latest submission, clicking on the list now expands no data. 
+
+I recommend get support from the [discussion forums](https://discussions.udacity.com) or by scheduling a [1:1 consultation](https://calendly.com/fend-1-1) with a mentor to get help with these challenges. 
+
+Keep learning,
+David 
+Web Education Services Lead",2017-07-07T19:03:18.405Z,2017-07-12T23:01:08.065Z
+586076,149432,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/586076/submission_content.zip,Bom trabalho! Falta pouco para estar bem preparado para a próxima etapa,pt-br,264,Market your Content,Rafael,https://review.udacity.com/#!/reviews/586076,False,,2017-07-03T22:51:55.475Z,2017-07-04T00:32:06.384Z
+550469,125632,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/550469/submission_content.zip,Bom trabalho! Só faltam alguns ajustes para seu projeto estar perfeito.,pt-br,266,Run a Facebook Campaign,Rafael,https://review.udacity.com/#!/reviews/550469,False,,2017-06-14T02:23:15.049Z,2017-06-14T03:53:35.650Z
+531418,23461,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/531418/Tableau.zip,"Dear student, I want to congratulate you for completing this project and fixing the issues addressed in the previous reviews. I enjoyed reviewing your project and wish you success in your future work!
+Keep it up doing your awesome job!",en-us,303,Create a Tableau Story,Raman,https://review.udacity.com/#!/reviews/531418,False,,2017-06-03T01:12:41.491Z,2017-06-03T02:24:20.767Z
+607181,61116,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/607181/archive.zip,"很好！可以看出你对本部分知识掌握的不错，恭喜你通过本项目！
+
+数据整理是数据分析师很重要的工作内容之一，其结果的好坏也可以直接影响后续分析的质量。你在今后的学习和工作中可能会频繁地使用到这部分的知识（可能你会碰到不同的数据格式需要自己掌握一些编程处理的新技能）~ 加油！💪",zh-cn,25,Wrangle OpenStreetMap Data,Kylie,https://review.udacity.com/#!/reviews/607181,False,,2017-07-14T07:17:01.548Z,2017-07-14T11:53:16.256Z
+666144,161540,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/666144/submission_content.zip,"Terrific job on your submission! All of my additional comments are in the attached annotations. I wish you all the best. :)
+[Kami Export - market_your_content.pdf](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/63507/1502347108/Kami_Export_-_market_your_content.pdf)",en-us,264,Market your Content,Shannon,https://review.udacity.com/#!/reviews/666144,False,,2017-08-10T06:12:28.030Z,2017-08-10T06:38:50.445Z
+521530,129240,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/521530/archive.zip,All in all I would like you to congratulate you for taking an amazing first step in this journey!! :clap: :clap: :clap:,en-us,206,Finding Lane Lines on the Road,Usman,https://review.udacity.com/#!/reviews/521530,False,,2017-05-28T19:44:26.635Z,2017-05-28T20:12:37.769Z
+548690,78814,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/548690/archive.zip,"Awesome job implementing your PID controller. I look forward to how you approach your MPC controller to help smooth out the control scheme!
+
+Keep up the hard work and stay Udacious!",en-us,289,PID Controller,Kyle,https://review.udacity.com/#!/reviews/548690,False,,2017-06-13T04:11:51.313Z,2017-06-15T22:16:09.614Z
+785075,147220,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/785075/submission_content.zip,,en-us,93,Interview Practice (Data Analyst),Joshua,https://review.udacity.com/#!/reviews/785075,False,,2017-10-08T19:31:19.585Z,2017-10-08T20:11:41.273Z
+508871,71811,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/508871/submission_content.zip,"Hi Ali, 
+You rocked it! This is a very strong cover letter. It eloquently conveys your job-relevant achievements and experiences. 
+All the best for your career. :smile:",en-us,123,Cover Letter Review,Karan,https://review.udacity.com/#!/reviews/508871,False,,2017-05-21T23:12:35.941Z,2017-05-22T08:06:51.011Z
+519919,130644,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/519919/Project-02.zip,"well done addressing the last remaining issues and completing your good work, you made it for an excellent project. I've left a few pro tips with plenty of links and references for your convenience. Please be advised though that some are quite advanced, therefore you might be interested only if you really are deep learning enthusiast.
+
+Congratulations on passing your exam!",en-us,238,Traffic Sign Classification,Luca,https://review.udacity.com/#!/reviews/519919,False,,2017-05-27T20:22:21.015Z,2017-05-27T21:50:47.562Z
+561991,114086,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/561991/submission_content.zip,你好，A/B试验这个项目非常复杂，包括了很多重要的决策要点，但你做的非常不错！建议你按照下面的评论和建议再梳理一下，有些知识点的问题上还可以再改进。加油！,zh-cn,54,Design an A/B test,Kylie,https://review.udacity.com/#!/reviews/561991,False,,2017-06-20T15:45:56.449Z,2017-06-20T17:41:36.113Z
+527164,77516,,,en-us,4,Tournament Results,none,https://review.udacity.com/#!/reviews/527164,False,FSND v1 graduation flow test,2017-05-31T17:49:11.481Z,2017-05-31T17:49:11.482Z
+519870,48940,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/519870/CarND-Advanced-Lane-Lines.zip,"### Congratulations, your project meets all specifications!
+
+I've enjoyed very much reviewing your project, you can be proud of the hard work you've done!
+If you want to go a bit further, here you can find some very interesting papers and posts, hope you like:
+- http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf
+- http://diml.yonsei.ac.kr/papers/Real-time%20Illumination%20Invariant%20Lane%20Detection%20%20for%20Lane%20Departure%20Warning%20System.pdf
+- https://medium.com/@vivek.yadav/robust-lane-finding-using-advanced-computer-vision-techniques-mid-project-update-540387e95ed3#.n1ph5k1og
+- https://medium.com/@heratypaul/udacity-sdcnd-advanced-lane-finding-45012da5ca7d#.c0ujnakj9
+- https://medium.com/@heratypaul/experiment-using-deep-learning-to-find-lane-lines-c668a6e42070#.5flnqnf0a
+- https://medium.com/@ajsmilutin/advanced-lane-finding-5d0be4072514
+
+
+Keep learning and stay ***Udacious***! :D",en-us,239,Advanced Lane Finding,AngelVidal,https://review.udacity.com/#!/reviews/519870,False,,2017-05-27T19:45:17.561Z,2017-05-27T23:33:05.261Z
+561196,149173,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/561196/MichaelOakes_Project1.zip,"**Congratulations on creating your first VR project! **
+
+You made a really amazing work in the script! As well, all games work perfectly!
+
+Keep up the good work! 🌟",en-us,310,Udacity Carnival,VictorReis,https://review.udacity.com/#!/reviews/561196,False,,2017-06-20T03:42:23.541Z,2017-06-20T06:45:57.389Z
+561207,122052,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/561207/isolation-61180.zip,"Really great job so far !!!  Your report just really needs one more improvement to completely meet specifications.
+Keep up the good work !!!
+
+Here are some useful links that might help you further grasp the subject of this project( [1](https://www.youtube.com/watch?v=J1GoI5WHBto) & [2](http://www.imada.sdu.dk/~marco/Teaching/AY2014-2015/DM842/Slides/dm842-p2-lec10.pdf) & [3](http://www.cs.cmu.edu/~ab/Desktop/15-211%20Archive/res00038/Lecture23MRM.pdf) )",en-us,240,Build a Game-Playing Agent,Tepa,https://review.udacity.com/#!/reviews/561207,False,,2017-06-20T03:50:40.331Z,2017-06-20T04:05:51.009Z
+565663,150822,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/565663/submission_content.zip,"Congratulations! We've done with our first project. Although there are some issues in the code, don't worry. We will spend a lot of time to learn HTML and CSS later in the course. Stay tuned.",zh-cn,47,Getting Started with HTML,Wang,https://review.udacity.com/#!/reviews/565663,False,,2017-06-22T14:59:27.711Z,2017-06-22T23:51:57.377Z
+540429,139408,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/540429/pthivierge_statistics.zip,"Well done!
+
+You project is really good and all calculations and definitions are precise!
+
+**Congratuations!:clap::clap:**",en-us,71,Test a Perceptual Phenomenon,Peterson,https://review.udacity.com/#!/reviews/540429,False,,2017-06-08T03:19:09.483Z,2017-06-08T03:53:47.672Z
+531090,57417,https://udacity-reviews-uploads.s3.amazonaws.com/_submissions/zipfile/531090/Proposal1v3.pdf.zip,"It seems as there was an issue with your submission, as I think half of your project was cut-off. I didn't catch this till after the dataset analysis section, so I still reviewed the first sections(which are great, btw). But just make sure you submit your full pdf report in the next one, as I'm sure that the last section will pass as well. Thanks.",en-us,236,Capstone Proposal,Matt,https://review.udacity.com/#!/reviews/531090,False,,2017-06-02T20:20:02.988Z,2017-06-02T20:53:32.618Z
