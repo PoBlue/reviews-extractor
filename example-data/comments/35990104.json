@@ -1,0 +1,1 @@
+[{"category": "critical", "content_id": 35990104, "id": 1926704, "user_id": 17283, "body": "Please **move the user-facing tab titles** to `strings.xml` as well.\n\nYou can use the `context.getString()` method to fetch the tab title.", "position": 19, "created_at": "2017-07-10T19:39:48.919Z", "updated_at": "2017-07-10T19:39:48.919Z"}]
