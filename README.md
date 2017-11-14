@@ -42,5 +42,5 @@ COMMENT_CSV_PATH = REVIEW_ROOT_CSV_PATH + "comment.csv"
 1. `REVIEW_ROOT_JSON_PATH`, 这个是指向存储已爬取的 review 数据的相对路径
 2. `REVIEW_ROOT_CSV_PATH `，这个是指向导出 csv 的相对路径
 
-可以 clone 项目后直接，复制这段代码进去不用改，尝试一下，里面已经有 `example-data/` 的了
+可以 clone 项目后直接，复制这段代码进去新建的 `data.py`，不用改直接运行，尝试一下，里面已经有 `example-data/` 的了
 
