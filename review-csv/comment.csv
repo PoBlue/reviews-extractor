@@ -3,6 +3,63 @@ critical,29913852,1764023,4768,"You must also add here some details about the pr
 nitpick,29913852,1764019,4768,"It is a good practice to use only the global variables you need, it is better to use local variables as the local variables will be created when the method starts and destroyed when the method finishes, global variables will always occupy space in RAM memory while the activity is alive.
 
 You have done a very good job with global variables in this project, just take this in mind for future projects :)",79,2017-06-06T15:36:49.234Z,2017-06-06T15:36:49.234Z
+critical,27111286,1696706,397,"True, but what are the steps you took to get to this point?  
+
+- What did you need to do to build the Vagrant environment this program runs in?
+- What did you need to do to load the data in the ""news"" database?
+- What directory does newsdata.py reside in?
+
+When answering these questions, consider what the project specifications ask for: ""Imagine a person who knows Python and SQL well, but has not done this project.  If that person read the README would they know how to run this code?""",14,2017-05-22T17:07:58.472Z,2017-05-22T17:08:51.213Z
+awesome,27111286,1696664,397,"As you say, there are several ways to solve this problem, and your approach is in fact a very good plan.",32,2017-05-22T16:56:02.077Z,2017-05-22T16:56:02.077Z
+critical,27111286,1696607,397,"Per one of the project requirements, be sure to include the CREATE VIEW syntax in your README file for all of the views you use in your project.",15,2017-05-22T16:40:32.341Z,2017-05-22T16:40:32.341Z
+awesome,26961839,1676484,4203,"I'm glad you were able to put those problem-solving skills to work. :smile: You did a really good job figuring out how to do the different parts.
+
+Getting input from others is very helpful with learning how to code, too, and it can be rather useful for those skilled in coding already. Through interacting with others, we can grow from the input and feedback we receive, and sometimes just plain talking back and forth can really help you understand a topic.",17,2017-05-17T17:16:47.484Z,2017-05-17T17:19:22.787Z
+nitpick,26961839,1676468,4203,"Keeping yourself motivated and on task can be tricky. Some people find things like the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to be helpful. There are different browser extensions/plugins that might help, such as [StayFocusd](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en) for Chrome and [LeechBlock](http://www.proginosko.com/leechblock/) for Firefox that try to help you avoid distractions.
+
+I personally like using [Habitica](http://habitica.com/), which is like a to-do list game. I always had trouble organizing myself, and I couldn't figure out where to start to fix that. (I would always fail at starting the plan to do so...which means you don't get anywhere.) But even if you aren't really a game person, it's an easy way to put together a bunch of to-do lists, and you can even use it from your phone.
+
+If you're more of a paper person, you might find a [Bullet Journal](https://www.youtube.com/watch?v=17Ykq55jFdU) or a planner helpful. Bullet Journals can be customized however you like, but a planner has a base build all setup for you.
+
+-----
+
+Something that can help with the whole looking up process is to save what good sites and pages you find. Then, if you need it again, you don't have to try to hunt it down and remember how you found it before. Some browsers let you attach an account so that you can share your bookmarks across different browsers. There's also bookmarking sites like [Diigo](http://diigo.com/). When you start using Git and GitHub, you could make a repo where you organize your links. And you could always do that with a personal wiki instead. (I like [TiddlyWiki](http://tiddlywiki.com/) myself.)",16,2017-05-17T17:09:44.174Z,2017-05-17T17:17:20.886Z
+critical,27596555,1693751,31271,请为该函数添加注释。,16,2017-05-22T00:54:52.544Z,2017-05-22T00:54:52.544Z
+critical,27596555,1693748,31271,请为该函数添加注释。,9,2017-05-22T00:54:45.666Z,2017-05-22T00:54:45.666Z
+nitpick,29173342,1740866,24195,You can refactor this into a separate method.,272,2017-06-01T06:07:40.171Z,2017-06-01T06:07:40.171Z
+nitpick,29173342,1740857,24195,You can merge ``` max_value ``` and ``` min_value ``` into a single method as both the methods are almost same.,292,2017-06-01T06:06:43.452Z,2017-06-01T06:06:43.452Z
+nitpick,29173342,1740849,24195,You can convert these as constants and then use them.,39,2017-06-01T06:05:29.922Z,2017-06-01T06:05:29.922Z
+nitpick,29173342,1740847,24195,"Have a look at these link. It will help you in writing better python code.
+1. [Style guide](https://google.github.io/styleguide/pyguide.html)
+2. [Logging](https://docs.python.org/3/library/logging.html)
+3. [Pdb](https://docs.python.org/3/library/pdb.html)",2,2017-06-01T06:05:02.711Z,2017-06-01T06:05:02.711Z
+nitpick,35005937,1898107,10086,"## Tip :zap: ##
+Since there's no code inside ``loadFeed()``'s anonymous callback function, this piece of code can be simplified to:
+```
+loadFeed(0, done);
+```",93,2017-07-05T19:50:37.514Z,2017-07-05T19:50:37.514Z
+nitpick,35005937,1898102,10086,"### Code Quality ###
+**Udacity Style Guide recommends:**
+- ``forEach`` or ``for`` loops are preferred over ``for``-``in`` loops when iterating over an array.
+
+
+See [requirement and examples here](https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop)
+
+See [StackOverflow answer here](https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-such-a-bad-idea) on why you shouldn't use ``for`` - ``in``",34,2017-07-05T19:50:07.926Z,2017-07-05T19:50:07.926Z
+awesome,35005937,1898097,10086,All good here with menu testing,79,2017-07-05T19:49:47.419Z,2017-07-05T19:49:47.419Z
+awesome,35005937,1898094,10086,Nice job with `RSS Feeds` testings!,52,2017-07-05T19:49:19.099Z,2017-07-05T19:49:19.099Z
+critical,35005937,1898093,10086,"The original *TODO* comment specifically ask for checking if there is at least 01 `.entry` element in the `.feed` container. The current implementation doesn't meet this requirement.
+
+Please rewrite the jQuery implementation.
+
+## Tip :zap: ##
+You can select elements that are child of a container as this example:
+
+```
+document.querySelectorAll('.parent-class .child-class'); // Vanilla JS method
+
+$('.parent-class .child-class'); // jQuery method
+```",99,2017-07-05T19:49:07.865Z,2017-07-05T19:49:07.865Z
 awesome,33678100,1858067,9503,"Excellent! :smiley:
 
 You used styles to customize your layout. This way your code is more modular, saving a lot of code lines.
@@ -27,12 +84,28 @@ But it's recommended that we implement this feature by using *Knockout* to compl
 
 ### Example :books:
 Besides from the Knockout documentation, you can refer to [my Codepen example](http://codepen.io/NKiD/pen/PGOjRW?editors=1010). It shows simple example of toggling an element's appearance.",1,2017-07-09T05:23:00.546Z,2017-07-09T05:23:00.546Z
+nitpick,27860437,1701864,7402,You can get rid of boilerplate `findViewById()` calls by using the ButterKnife library: https://jakewharton.github.io/butterknife/,60,2017-05-23T15:44:02.399Z,2017-05-23T15:44:02.399Z
+nitpick,27860437,1701863,7402,"You can organize your code by using packages.
+```
+package com.projects.alexanderauer.bakingapp.fragment;
+```",1,2017-05-23T15:43:53.721Z,2017-05-23T15:43:53.721Z
 awesome,31697438,1812575,1755,"There really is a lot to try to remember. Just HTML5 has over 110 elements, some of which are deprecated and some of which are obsolete. So getting good at researching and finding the best resources is important.
 
 An easy way to find what you need on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) is google. Try something like, ""mdn p tag"" and it most likely show results from mdn first (it always does as far as I know). For deeper knowledge go to the [HTML5 specification](https://www.w3.org/TR/html5/) itself. It really isn't as bad as you might think :-).
 
 For hands-on tools, you could take a look at sites like [http://jsbin.com/](http://jsbin.com/). These types of sites (there are quite a few) let you write code and see the changes in real time. They are excellent tools for trying out things in HTML, CSS and JavaScript, including trying out things with jQuery and other JavaScript libraries.",20,2017-06-18T11:09:40.787Z,2017-06-18T11:09:40.787Z
 awesome,31697438,1812574,1755,"You definitely have HTML figured out! The next project is all about CSS, and then you'll start getting into coding with Javascript. I'm sure you are going to have a lot of fun with the next projects.",18,2017-06-18T11:09:30.815Z,2017-06-18T11:09:30.815Z
+awesome,35990113,1926696,17283,**Nicely done fetching the strings** from `strings.xml` resource file.,52,2017-07-10T19:38:50.416Z,2017-07-10T19:38:50.416Z
+nitpick,32098669,1822061,641,Always refer to the **[Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)**,28,2017-06-20T11:02:59.209Z,2017-06-20T11:02:59.209Z
+nitpick,32098669,1822060,641,always prefer to have a space before the opening brace :),16,2017-06-20T11:02:46.345Z,2017-06-20T11:02:46.345Z
+nitpick,32098669,1822059,641,always prefer to have a blank line after each rule :),11,2017-06-20T11:02:39.592Z,2017-06-20T11:02:39.592Z
+awesome,32098669,1822057,641,Great work using 3 digit hex values where possible :),10,2017-06-20T11:02:32.222Z,2017-06-20T11:02:32.222Z
+nitpick,32098669,1822055,641,you do not need to use any units if the value is 0 :),5,2017-06-20T11:02:19.956Z,2017-06-20T11:02:19.956Z
+awesome,32098669,1822053,641,Awesome job using lowercase hex values for your color codes :),4,2017-06-20T11:02:16.031Z,2017-06-20T11:02:16.031Z
+awesome,27403484,1688521,17283,Great job **managing your string resources** in `strings.xml`!,6,2017-05-20T21:38:02.191Z,2017-05-20T21:38:02.191Z
+nitpick,31170225,1800125,39954,"You can allow for a number + decimal point here, as well as a maximum number of digits so as not to crash on a super long number...",56,2017-06-15T11:36:04.889Z,2017-06-15T11:36:04.889Z
+awesome,31170225,1800056,39954,"By the way, very nice formatting work!",110,2017-06-15T11:08:00.198Z,2017-06-15T11:08:00.198Z
+critical,31170225,1800055,39954,In this view you need to add an `ImageView` to allow the user to see and edit the photograph...,3,2017-06-15T11:07:40.435Z,2017-06-15T11:07:40.435Z
 critical,28661873,1724051,92996,"You have used the wrong units of measurement for your views!
  
 You should use `sp` (scale-independent) unit of measurement for text size and `dp` (density-independent) for everything else. This [StackOverflow thread](http://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android) is quite useful if you want more details about the differences.",90,2017-05-28T18:04:34.938Z,2017-05-28T18:04:34.938Z
@@ -68,6 +141,11 @@ If you want to go into details here, you can take a look at these links:
 nitpick,28661873,1724046,92996,"It is a good practice to define all of your strings in the strings.xml resource file and refer to them wherever you need. The main advantage, in this case, is the easy addition of new language support, like Portuguese, French, Italian.  The only thing you need to do is create a strings.xml resource file for each supported language and for each key put its translation.
 Read more [here](https://developer.android.com/guide/topics/resources/string-resource.html), you can also take a look at [non-translatable strings](http://tools.android.com/recent/non-translatablestrings).",25,2017-05-28T18:03:58.042Z,2017-05-28T18:03:58.042Z
 nitpick,28341588,1715653,1392,There's no activity indicator during downloading but the TODO lines are correct. These are the places that we should start/stop the cell's indicator.,73,2017-05-26T13:58:09.737Z,2017-05-26T13:58:09.737Z
+nitpick,27850189,1701242,46421,"If you haven't already, check out this course on how to write great READMEs: https://www.udacity.com/course/writing-readmes--ud777.",86,2017-05-23T12:40:46.435Z,2017-05-23T12:40:46.435Z
+nitpick,30528267,1801483,63593,I see you fit the waypoints to a 3rd degree polynomial. This may be the source of the radical MPC trajectory changes that cause the car to veer off-road during sharp turns. Have you tried using a 2nd degree polynomial?,108,2017-06-15T18:55:39.790Z,2017-06-15T18:55:39.790Z
+nitpick,30528267,1801470,63593,"Notice the simulator reports speed in miles per hour, however the MPC works in meters (the unit of car coordinates `x` and `y`) and seconds (time step durations are given in fractions of a second). Consider converting speeds back-and-forth between simulator and controller.",92,2017-06-15T18:52:47.454Z,2017-06-15T18:52:47.454Z
+nitpick,35990108,1926701,17283,You might want to use the `ViewHolder` pattern to make your list more efficient. Here's an [example](http://stackoverflow.com/questions/3832254/how-can-i-make-my-arrayadapter-follow-the-viewholder-pattern),73,2017-07-10T19:39:16.511Z,2017-07-10T19:39:16.511Z
+nitpick,35990108,1926700,17283,Consider checking out the [ButterKnife library](http://jakewharton.github.io/butterknife/) to reduce boilerplate code associated with binding the views,60,2017-07-10T19:39:11.188Z,2017-07-10T19:39:11.188Z
 nitpick,28661872,1724060,92996,"When decrementing by 1, you can also do `teamB--;`.",58,2017-05-28T18:05:30.733Z,2017-05-28T18:05:30.733Z
 nitpick,28661872,1724058,92996,"It is a good practice to define all of the attributes of a class with the `private` modifier, like this:
 ```java
@@ -77,6 +155,14 @@ private int score;
 
 This way, the fields are not directly accessible by other classes and avoid other classes changing the values by mistake, for instance.
 If still wanna make the fields visible to other classes you can implement [accessors methods](https://www.thoughtco.com/accessors-and-mutators-2034335).",10,2017-05-28T18:05:10.723Z,2017-05-28T18:05:10.723Z
+awesome,27403485,1688522,17283,Nice job using **dp** and **sp** appropriately,26,2017-05-20T21:38:11.797Z,2017-05-20T21:38:11.797Z
+awesome,32098668,1822048,641,Perfect use of classes :),15,2017-06-20T11:02:01.504Z,2017-06-20T11:02:01.504Z
+awesome,32098668,1822047,641,Great job using the **alt** attribute correctly :),12,2017-06-20T11:01:52.074Z,2017-06-20T11:01:52.074Z
+nitpick,32098668,1822045,641,**ids** can be used for styling but **classes** are recommended. This is because ids have to be unique but classes are reusable .,8,2017-06-20T11:01:41.264Z,2017-06-20T11:01:41.264Z
+nitpick,32098668,1822044,641,Since we are using HTML5 we do not require any type attribute in the link or script tag. You can learn more about it **[here](https://developer.mozilla.org/en/docs/Web/HTML/Element/link)**,5,2017-06-20T11:01:36.306Z,2017-06-20T11:01:36.306Z
+awesome,27860457,1701871,7402,"Great job using RTL attributes for dimensions. This ensures they are applied correctly across locales such as Arabic. See this link: https://medium.com/@zhangqichuan/rtl-support-in-android-898e11f31561
+
+As a quick tip, with older versions of Android it may be a good idea to also add in the right/left equivalent for backward compatibility.",33,2017-05-23T15:45:53.052Z,2017-05-23T15:45:53.052Z
 nitpick,35597106,1916491,10086,"Please use Markdown syntax to style your documentation for readability. Refer here:
 - https://guides.github.com/features/mastering-markdown/
 
@@ -89,16 +175,108 @@ or you can copy markdown documentation into [StackEdit.io](https://stackedit.io/
 ### Reference ###
 - See [this Udacity course on Writing Readmes](https://www.udacity.com/course/writing-readmes--ud777)
 - See [this Markdown guide](https://guides.github.com/features/mastering-markdown/) to help you style your documentation",0,2017-07-09T05:19:01.996Z,2017-07-09T05:19:01.996Z
+critical,35990112,1926705,17283,Please **remove unused method**. They'll be grayed out in `Android Studio`,40,2017-07-10T19:41:30.892Z,2017-07-10T19:41:30.892Z
+awesome,35990112,1926697,17283,**Awesome job **using a `ViewPager` with `TabLayout`! The app **navigation looks and works sleek!**,30,2017-07-10T19:38:58.352Z,2017-07-10T19:38:58.352Z
+critical,35990104,1926704,17283,"Please **move the user-facing tab titles** to `strings.xml` as well.
+
+You can use the `context.getString()` method to fetch the tab title.",19,2017-07-10T19:39:48.919Z,2017-07-10T19:39:48.919Z
+awesome,27850192,1701237,46421,Same with your secondary keys!,17,2017-05-23T12:39:46.707Z,2017-05-23T12:39:46.707Z
+awesome,27850192,1701236,46421,Great job with declaring your primary key!,10,2017-05-23T12:39:33.897Z,2017-05-23T12:39:33.897Z
+awesome,27850192,1701234,46421,"Great idea to put this code here, it definitely speeds up development!",1,2017-05-23T12:39:31.705Z,2017-05-23T12:39:31.705Z
+nitpick,29743306,1763585,32286,Better if you can change `if` to `elif`:yum:,33,2017-06-06T14:08:35.283Z,2017-06-06T14:08:35.283Z
+nitpick,29743306,1763564,32286,"Personally, I suggest keeping only one `return` statement for each function, you can use statements `level_chosen = easy_level` and `return level_chosen` to accomplish that. It helps others to view and understand your code more quicker easier to maintain.",38,2017-06-06T14:05:30.695Z,2017-06-06T14:08:11.007Z
+awesome,29743306,1763554,32286,Congratulations:yum:,82,2017-06-06T14:01:00.604Z,2017-06-06T14:01:00.604Z
 nitpick,35192287,1904002,5939,"Rather than showing and hiding this `View` manually `ListVIew` actually has a super handy `setEmptyView()` method that allows us to specify a `View` to be shown when the `LIstView` is empty.  The `ListView` then handles all the showing and hiding for us.
 
 Check out [this guide here](https://cyrilmottier.com/2011/06/20/listview-tips-tricks-1-handle-emptiness/) if you're not sure how to do this :smile:",84,2017-07-06T20:25:48.976Z,2017-07-06T20:25:48.976Z
 critical,35192287,1903991,5939,"This network check will throw a null pointer error if the device is in airplane mode.  Please check out [the docs](https://developer.android.com/training/monitoring-device-state/connectivity-monitoring.html) to see how to perform a network check properly, there's a critical line missing here that handles the airplane mode situation :smile:",78,2017-07-06T20:23:37.115Z,2017-07-06T20:23:37.115Z
+nitpick,26961838,1676459,4203,"As mentioned in the Project Review, you shouldn't use `width` and `align` on the horizontal rule tag. If we check the code with the validator tool, it will point out this mistake.
+
+![Screen Shot 2017-05-17 at 1.07.32 PM.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/4203/1495040903/Screen_Shot_2017-05-17_at_1.07.32_PM.png)
+.
+
+Instead, you can simply just put `<hr>`.",56,2017-05-17T17:08:28.658Z,2017-05-17T17:10:42.058Z
+awesome,26961838,1676461,4203,"Overall, good job with your page! :smile:",62,2017-05-17T17:08:42.032Z,2017-05-17T17:08:42.032Z
+awesome,26961838,1676451,4203,"Alright, the spacing here looks good! :thumbsup:",55,2017-05-17T17:07:25.956Z,2017-05-17T17:07:25.956Z
+nitpick,26961838,1676438,4203,It looks like this line is missing its `<p>`. It has the `</p>` at the end.,27,2017-05-17T17:05:11.863Z,2017-05-17T17:05:11.863Z
+awesome,26961838,1676437,4203,"Great job opening and closing your tags in the proper order, so there is no overlap. This is known as properly nesting your tags.
+
+```html
+<em><strong>Overlapping (not so good)</em></strong>
+
+<em><strong>Not overlapping (good!)</strong></em>
+```
+
+----
+
+![Suggestion](https://udacity-github-sync-content.s3.amazonaws.com/_attachments/4203/1483476189/Screen_Shot_2016-12-23_at_9.50.19_PM.png)
+It looks like the `</p>` is missing. Whoops. Simple mistake.",22,2017-05-17T17:04:42.740Z,2017-05-17T17:04:42.740Z
+nitpick,26961838,1676416,4203,"There's a lot of spacing in this file. You shouldn't put a blank line between each and every single part. Instead, try to use blank lines to separate different parts. This helps to show what parts go together.
+
+```
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <title>Example</title>
+</head>
+
+<body>
+    <h1>Main Title</h1>
+    <p>
+        Some text here.
+    </p>
+    <p>
+        Some more text here.
+    </p>
+
+    <h2>Section Title</h2>
+    <p>
+        Even more text here.
+    </p>
+    <p>
+        Some other text here.
+    </p>
+
+    <h2>Section Title</h2>
+    <p>
+        Other text here.
+    </p>
+</body>
+</html>
+```
+
+A little tricky to see the blank lines between the last paragraph and the next heading, but I hope you get the idea. It doesn't have to be something exactly like that. Basically, just use your formatting to help explain what's going on.
+
+You may also find this read on formatting helpful: [Formatting & Indenting Your HTML](http://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/)",10,2017-05-17T16:59:30.557Z,2017-05-17T17:03:25.351Z
+awesome,26961838,1676394,4203,"Alrighty, the page looks good! :smile: I will be leaving some comments below.
+
+If you'd like, you can check out the [Udacity style guide](https://udacity.github.io/frontend-nanodegree-styleguide/) that is used for FEND. Those guidelines are pretty good for helping you make your code nice. This will be something that comes up with future projects, and it'd be good to try to follow it if you can.",0,2017-05-17T16:51:49.072Z,2017-05-17T16:51:49.072Z
 critical,29913853,1764017,4768,"You should not let the user introduce negative quantity, if the item quantity is zero, do not decrease any more items.",77,2017-06-06T15:36:21.111Z,2017-06-06T15:36:21.111Z
 critical,29913853,1764009,4768,"Now you must update your cursor here, you could use the `IDColuumnIndex` variable in order to know the ID of the row to update :)",79,2017-06-06T15:35:18.578Z,2017-06-06T15:35:46.523Z
 nitpick,31232711,1811809,39954,"You could just add a little to your descriptions right here: what class is needed to make the Player work???
 
 
 Also all of your descriptions should go into this `strings.xml` resource file.",19,2017-06-18T05:53:17.555Z,2017-06-18T05:53:17.555Z
+awesome,32509609,1833239,583,Great job in figuring out how to pass data between ViewControllers.,65,2017-06-22T16:51:33.712Z,2017-06-22T16:51:33.712Z
+nitpick,32509609,1833238,583,"You could let the user know that the recording failed by showing an alert message. `UIAlertController` class can be used for this purpose. Please check the documentation to learn more about `UIAlertController` -
+
+https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/",57,2017-06-22T16:51:12.566Z,2017-06-22T16:51:12.566Z
+awesome,32509609,1833237,583,Great job declaring a helper method to configure UI.,19,2017-06-22T16:50:53.797Z,2017-06-22T16:50:53.797Z
+critical,31170219,1800097,39954,"You will also have to add a line for the image...
+
+`public static final String PRODUCT_IMAGE = ""image"";` or whatever you will use of course.",87,2017-06-15T11:25:36.590Z,2017-06-15T11:25:36.590Z
+awesome,31170219,1800087,39954,"Good work creating an empty constructor and setting it `private`.
+ 
+There are three common reasons to define a default constructor:
+ 
+1. To construct an object with default values.
+2. To initialize an object that doesn't need parameters in that initialization process.
+3. To redefine the scope of the constructor. Making the constructor private will prevent anyone but the class itself from constructing an object.
+ 
+The last reason here explains why to set the empty constructor as private.
+ 
+There is much to read up on for the topic whether we need one or not. For example, see [**this post**](http://stackoverflow.com/questions/402514/why-might-one-also-use-a-blank-constructor) in StackOverflow, often a good source to have questions answered about programming details.",9,2017-06-15T11:23:09.835Z,2017-06-15T11:23:09.835Z
 awesome,33478641,1855188,641,"You didnt leave much room for critique!! Your project was perfect and followed most standard practices :)
 
 Great job on this project and all the best for the future ones :smile: :thumbsup:",57,2017-06-27T08:37:25.753Z,2017-06-27T08:37:25.753Z
@@ -115,14 +293,62 @@ Immutable objects are particularly useful in concurrent applications. Since they
 Programmers are often reluctant to employ immutable objects, because they worry about the cost of creating a new object as opposed to updating an object in place. The impact of object creation is often overestimated, and can be offset by some of the efficiencies associated with immutable objects. These include decreased overhead due to garbage collection, and the elimination of code needed to protect mutable objects from corruption.",7,2017-07-04T04:03:05.505Z,2017-07-04T04:03:05.505Z
 nitpick,32986697,1846099,2988,"Good job! Your css is quite simple and clean. I have some suggestions for you to make your code look better. According to [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html),  
 - All code has to be lowercase. This applies to CSS selectors, properties and property values (with the exception of strings).",3,2017-06-25T12:10:46.249Z,2017-06-25T12:10:46.249Z
+awesome,31170223,1800119,39954,Good way to deal with the `Cursor`,106,2017-06-15T11:34:50.149Z,2017-06-15T11:34:50.149Z
+nitpick,31170223,1800118,39954,? are those dummy data that we never get to see?,57,2017-06-15T11:34:30.911Z,2017-06-15T11:34:30.911Z
 nitpick,28603567,1722450,92996,"According to [google Java style guide](https://google.github.io/styleguide/javaguide.html#s5.2.2-class-names):
 
 > Classes names are written in UpperCamelCase
 
 Thus, the name of this class should be ""PActivity"" or more descriptively ""PreferencesActivity"".",14,2017-05-28T10:26:30.436Z,2017-05-28T10:26:30.436Z
 nitpick,27815301,1726635,8026,Consider refactoring (iterating on your work) here and in `movie_tile_content` if you want to include additional information from your `Movie` class.,140,2017-05-29T08:32:50.035Z,2017-05-29T08:32:50.035Z
+awesome,34874244,1894629,411,"Variables are named in a consistent way(lowercase letters + underscores). Good job!
+
+-------------------------------------------------
+
+**Conventional naming rules**
+
+[Constants](https://www.python.org/dev/peps/pep-0008/#constants):
+Uppercase letters + underscores
+e.g. INIT_X
+
+Class:
+First character is an uppercase letter.
+e.g. Car
+
+Local(global) variables:
+Lowercase letters + underscores.
+e.g. car_type",47,2017-07-05T04:02:42.991Z,2017-07-05T04:02:42.991Z
+awesome,34874244,1894608,411,The code meets the requirements of PEP8 :star2:,50,2017-07-05T03:55:40.597Z,2017-07-05T03:55:40.597Z
+awesome,34874244,1894605,411,You are using `noqa` keywords appropriately :thumbsup:,15,2017-07-05T03:55:07.325Z,2017-07-05T03:55:07.325Z
 critical,29198290,1741203,590,The class name should start with the capita letter,11,2017-06-01T08:52:48.213Z,2017-06-01T08:52:48.213Z
 critical,29198290,1741202,590,buttons are still squashed - please​ check tips in the last review,19,2017-06-01T08:52:32.782Z,2017-06-01T08:52:32.782Z
+nitpick,30040182,1772395,262,"Instead of using generic `<div>` containers you can use semantic containers. A semantic element clearly describes its meaning to both the browser and the developer. Like this:
+```
+<footer class=""ProjectFooter"">
+  <p>For more projects, please visit my <a href=""http://www.scottbryanbaker.com/"" target=""_blank"">architectural portfolio website</a>!</p>
+</footer>
+```
+
+Tip: You can use `<header>` on line `13` instead of generic `<div>` too.
+
+[You can read more about HTML Structural Elements here](https://www.w3.org/wiki/HTML_structural_elements)",65,2017-06-08T15:42:09.463Z,2017-06-08T15:47:14.396Z
+nitpick,30040182,1772343,262,"Hello Scott! Try to use heading elements in order. Using heading elements in order provides a better structure to your webpage.
+
+If the next heading size (`<h3>` in this case) is too big, you can use CSS to override the default font size. Like this:
+```
+h3 {
+  font-size: 0.67em;
+}
+```
+
+You can find the [default values for heading elements here](https://www.w3.org/TR/html5/rendering.html#sections-and-headings)
+
+[Learn more about heading elements here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)",26,2017-06-08T15:30:35.753Z,2017-06-08T15:46:49.472Z
+awesome,30040182,1772382,262,All your images look great and have a proper `alt` text set that describes what they are.,44,2017-06-08T15:40:22.653Z,2017-06-08T15:40:22.653Z
+awesome,30040182,1772269,262,Nice! You added a Google Font to enhance the webpage's typography.,6,2017-06-08T15:08:55.021Z,2017-06-08T15:08:55.021Z
+critical,27596553,1693758,31271,请为该函数添加注释。,38,2017-05-22T00:55:41.742Z,2017-05-22T00:55:41.742Z
+awesome,27596553,1693757,31271,很棒！这个函数与偶了良好的注释。,14,2017-05-22T00:55:29.244Z,2017-05-22T00:55:29.244Z
+critical,27596553,1693756,31271,请为该函数添加注释。,20,2017-05-22T00:55:09.936Z,2017-05-22T00:55:09.936Z
 critical,33678096,1858037,9503,"It is missing an else statement in your code.
 
 You could add an Else statement here or in lines 34, 40, 46 or 52.",27,2017-06-27T21:34:57.454Z,2017-06-27T21:34:57.454Z
@@ -176,8 +402,13 @@ nitpick,32547496,1835007,13085,"A valid HTML has a structure below.
     </body>
 </html>
 ```",1,2017-06-22T23:48:50.701Z,2017-06-22T23:48:50.701Z
+critical,34377560,1881253,12966,"It's one of the hardcoded texts in your code. Move them all to the **strings.xml** file and refer to them with their ids to make the app easily translatable.
+
+If you want to concatenate strings, check ou tthe [**Formatting and Styling** section of the official guide](https://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling) to see how to do it better.",86,2017-07-02T17:28:09.743Z,2017-07-02T17:28:09.743Z
 nitpick,28341595,1715646,1392,I suggest adding a small map view on top of the collection view so that the users is always aware of where the photos belong.,16,2017-05-26T13:54:47.387Z,2017-05-26T13:54:47.387Z
 nitpick,28551936,1720495,26643,"For next projects, if you want to improve your lists you can implement the ViewHolder pattern in your adapter.  You can have more information in the [Oficial Android Documentation](https://developer.android.com/training/improving-layouts/smooth-scrolling.html)",32,2017-05-27T21:17:46.736Z,2017-05-27T21:17:46.736Z
+awesome,27860467,1701827,7402,Great job storing your strings in `strings.xml`. This helps a lot with localization in the event you want to translate your app to different languages. See this link: https://developer.android.com/guide/topics/resources/localization.html,11,2017-05-23T15:36:47.965Z,2017-05-23T15:36:47.965Z
+nitpick,27860467,1701823,7402,"Strings that shouldn't be translated should use the `translatable=""false""` attribute. This will ensure they don't change across locales.",4,2017-05-23T15:36:17.931Z,2017-05-23T15:36:17.931Z
 nitpick,29126309,1738576,1456,"Since *results* is a tuple, you could type something like:
 - `for title, numViews in results`
 
@@ -233,6 +464,11 @@ How can we do this? Using the concept of Data Binding, that is better explained 
 critical,29198291,1741199,590,As mentioned in the last review - property name should not start with capital letter,17,2017-06-01T08:51:50.935Z,2017-06-01T08:51:50.935Z
 critical,29198291,1741198,590,Please check last reviews for tips how to refactor the code,54,2017-06-01T08:51:25.597Z,2017-06-01T08:51:25.597Z
 nitpick,28603566,1722452,92996,"The class name should be ""NewsLoader"" without underscore and following the [UpperCamelCase](https://google.github.io/styleguide/javaguide.html#s5.3-camel-case) notation.",11,2017-05-28T10:27:45.906Z,2017-05-28T10:27:45.906Z
+critical,31170222,1800116,39954,"This needs a confirmation....before deleting.
+
+see e.g., [here](http://stackoverflow.com/questions/2257963/how-to-show-a-dialog-to-confirm-that-the-user-wishes-to-exit-an-android-activity) for a useful post how to set this up...",231,2017-06-15T11:33:33.363Z,2017-06-15T11:33:33.363Z
+critical,31170222,1800115,39954,All pet references should go....,161,2017-06-15T11:31:39.124Z,2017-06-15T11:31:39.124Z
+awesome,31170222,1800114,39954,Nice work with the email order!,157,2017-06-15T11:31:22.071Z,2017-06-15T11:31:22.071Z
 nitpick,32986696,1846097,2988,"Currently, each player and section are separated. In order to group your content properly, you could do:
 ```
 <div class=""section"">
@@ -289,13 +525,64 @@ Check out the [Udacity Frontend Nanodegree Style Guide](https://udacity.github.i
 nitpick,28375551,1716763,68564,"Great job with the angle normalization every where it is required. However, as a tip to improve the code, you could define this implementation in a function that you can call every time you need normalization, while just changing the arguments you pass to the function. This will help gain some time.",493,2017-05-26T19:48:55.690Z,2017-05-26T19:49:34.491Z
 nitpick,28375551,1716762,68564,"LIDAR here is linear. This means that we do not need to use the unscented transformation here. Using the linear Kalman filter update equations just like in the EKF project should give the same results and has the advantage to require less computational resources. Thus, better Real Time performance.",321,2017-05-26T19:48:37.875Z,2017-05-26T19:48:37.875Z
 nitpick,28375551,1716761,68564,This expression `2*n_aug_+1` can actually be expressed in a variable and then called any time you need it. This expression is called multiple times over the course of the algorithm. Instead of computing it multiple times you can greatly improve the Real Time performance by doing it just once.,71,2017-05-26T19:48:21.103Z,2017-05-26T19:48:21.103Z
+awesome,27285676,1684925,1392,"``` audioRecorderDidFinishRecording ``` works perfectly!
+Notice also that in the file ** playsoundsviewcontroller-audio.swift** there's a method created at the bottom that displays an alert!
+```
+showAlert()
+``` 
+
+We could display an alert if the recording fails.",62,2017-05-19T21:46:47.211Z,2017-05-19T22:02:04.523Z
+nitpick,27285676,1684963,1392,This line contains two expressions. Don't use one line for more than one expression.,55,2017-05-19T21:52:44.670Z,2017-05-19T22:01:28.518Z
+awesome,27285676,1684931,1392,"Nicely abstracted code, excellent job!",28,2017-05-19T21:47:03.448Z,2017-05-19T21:47:03.448Z
+critical,31170218,1800083,39954,"To allow camera or gallery to work you will need to add a permission here...
+
+The following are a good idea at a minimum...
+
+
+    `uses-permission android:name=""android.permission.MANAGE_DOCUMENTS""`
+    `uses-permission android:name=""android.permission.READ_EXTERNAL_STORAGE""`",3,2017-06-15T11:21:33.080Z,2017-06-15T11:22:12.070Z
+critical,32117306,1825509,3576,"## Comments effectively explain longer code procedures.
+
+All functions need to have a comments describing what they do and what are the inputs and outputs, if any?.
+
+Here's a little example about how your comments should be like:
+
+![1.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/3576/1494607946/1.png)",9,2017-06-21T02:43:15.854Z,2017-06-21T02:43:15.854Z
+awesome,32509608,1833244,583,All six buttons work properly to play the associated sounds. Nice work.,54,2017-06-22T16:52:52.858Z,2017-06-22T16:52:52.858Z
+awesome,32509608,1833243,583,The `ButtonType` enum is correctly defined.,27,2017-06-22T16:52:38.536Z,2017-06-22T16:52:38.536Z
+critical,34377540,1881226,12966,"Move the keystore file to the project's directory and change the path to a relative one to make the more portable. 
+
+It will let you swap development machines easily and work with a team without the need to reconfigure the project.",17,2017-07-02T17:22:40.061Z,2017-07-02T17:22:40.061Z
 awesome,28341575,1717328,31271,太棒了！添加了良好的注释！,14,2017-05-26T22:42:25.920Z,2017-05-26T22:42:25.920Z
+nitpick,34874246,1894615,411,"#### For better documenting:
+Function comments should include:
+
+1. Behavior
+2. Inputs(arguments)
+3. Outputs(returned values)
+
+For example, `__init__` should be described as follows:
+```
+def __init__(self, movie_title, movie_storyline, ...):
+    """"""
+    Initialize the movie instance.
+    Inputs:
+        movie_title     => Title of the movie
+        movie_storyline => Summary of the movie
+        ...
+    Outputs: None
+    """"""
+```
+
+Please check [this article](https://www.python.org/dev/peps/pep-0257/#multi-line-docstrings). There is another example.",9,2017-07-05T03:56:44.600Z,2017-07-05T03:56:44.600Z
 critical,33975010,1866393,3383,Remove all extra blank lines.,37,2017-06-29T12:46:42.060Z,2017-06-29T12:46:42.060Z
 awesome,33975010,1866392,3383,"It is recommended to get used with this approach, especially useful for when you will develop multi-language apps :+1: Please take a few minutes and read more about  [Supporting Different Languages and Cultures](https://developer.android.com/training/basics/supporting-devices/languages.html).",42,2017-06-29T12:46:28.668Z,2017-06-29T12:46:28.668Z
 awesome,28551939,1720485,26643,"Your code is very well commented, this is a great practice.",43,2017-05-27T21:16:08.964Z,2017-05-27T21:16:08.964Z
 awesome,28551939,1720484,26643,Great job using SwipeRefreshLayout to refresh the list of news!,25,2017-05-27T21:15:40.959Z,2017-05-27T21:15:40.959Z
 awesome,27815303,1726634,8026,Great job extending your `Movie` class by adding instance attributes!,13,2017-05-29T08:32:40.381Z,2017-05-29T08:32:40.381Z
 awesome,27815303,1726633,8026,Good job using docstrings to document your code! Check out [this resource](http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html) if you would like to see addition examples of docstrings.,9,2017-05-29T08:32:30.902Z,2017-05-29T08:32:30.902Z
+nitpick,27234455,1683513,17283,Consider using a `switch statement` here,78,2017-05-19T14:48:08.445Z,2017-05-19T14:48:08.445Z
+nitpick,27234455,1683512,17283,Consider checking out the [ButterKnife library](http://jakewharton.github.io/butterknife/) to reduce boilerplate code associated with binding the views,52,2017-05-19T14:48:02.142Z,2017-05-19T14:48:02.142Z
 awesome,33975006,1866406,3383,:+1: for following [Android recommendations](https://developer.android.com/reference/android/app/Activity.html). Same can be done for the `RadioButton`s and the `EditText`.,25,2017-06-29T12:50:15.153Z,2017-06-29T12:57:22.811Z
 nitpick,33975006,1866442,3383,"Have a look at the warnings that Android Studio displays in xml and Java files. They are easy to fix and you might even learn something new :wink:
 
@@ -315,6 +602,92 @@ nitpick,33975006,1866416,3383,"Avoid using hardcoded strings, rather use **strin
 nitpick,33975006,1866413,3383,This is the place where you can add the **if/else statement** :smile:,41,2017-06-29T12:51:19.553Z,2017-06-29T12:51:19.553Z
 nitpick,33975006,1866410,3383,"Global int variables are by default set to 0, thus there is no need to do it yourself. As a second note, in Android class variables are called member variables and they start with a small **m**. Your variable would translate to `mScore`.",28,2017-06-29T12:50:33.911Z,2017-06-29T12:50:33.911Z
 critical,33975006,1866394,3383,Blank lines are used to delimit blocks of code. Please remove all blank lines in this code. Only leave those that really really make sense as code block separators.,10,2017-06-29T12:47:45.618Z,2017-06-29T12:47:45.618Z
+awesome,31170221,1800113,39954,Nice work here!,201,2017-06-15T11:30:31.607Z,2017-06-15T11:30:31.607Z
+critical,31170221,1800111,39954,Check all your Java files for the unused import statements...,9,2017-06-15T11:29:25.264Z,2017-06-15T11:29:25.264Z
+nitpick,34436361,1879855,42143,I think you do not need to do this because you enforce the constraints for the first time step below.,177,2017-07-02T10:44:25.665Z,2017-07-02T10:44:25.665Z
+awesome,34436361,1879854,42143,Correct!,110,2017-07-02T10:44:15.762Z,2017-07-02T10:44:15.762Z
+awesome,34436361,1879851,42143,You optimize the weights of the cost function here!,66,2017-07-02T10:43:48.668Z,2017-07-02T10:43:48.668Z
+awesome,27285675,1684942,1392,All the buttons for the audio effects play the sounds!,39,2017-05-19T21:48:21.901Z,2017-05-19T21:48:21.901Z
+critical,27285675,1684906,1392,"The buttons still appear stretched on the landscape layout:
+
+![Screen Shot 2017-05-20 at 00.23.55.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/1392/1495229232/Screen_Shot_2017-05-20_at_00.23.55.png)
+
+You can fix this by setting the content mode of each button to ```Aspect Fit```:
+
+```
+snailButton.imageView?.contentMode = .scaleAspectFit
+chipMunkButton.imageView?.contentMode = .scaleAspectFit
+rabbitButton.imageView?.contentMode = .scaleAspectFit
+stopButton.imageView?.contentMode = .scaleAspectFit
+..etc.
+```",58,2017-05-19T21:39:34.965Z,2017-05-19T21:39:34.965Z
+critical,32117305,1825515,3576,"## Code is neatly formatted.
+_______________________________
+As a good coding practice your code must be **neatly formatted**, **clean**,  **maintainable** and **easy to read** for other programmers. For example:
+
+![1.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/3576/1494601839/1.png)
+
+
+
+## Suggestions:
+- 1) **INDENTING**
+**Indenting** your code makes it much more readable. This is a very important habit to have because it makes your code much more maintainable.
+_________________________
+
+- 2) **MULTIPLE LINES**
+When you have a piece of text longer than 79 characters it's considered good practice break this text in multiple lines.  For example:
+
+### Bad:
+![1.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/3576/1494605602/1.png)
+### Good:
+![Screenshot from 2017-05-12 10-10-00.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/3576/1494605420/Screenshot_from_2017-05-12_10-10-00.png)
+________________________
+- 3) **URL**
+**URLS** are an exception. Don't split a url over two lines because it makes the urls hard to read, the instead add the comment # NOQA
+(The comment # noqa lets you skip error in tools such asPEP 8 online,)
+
+![1.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/3576/1494606675/1.png)
+
+________________________________
+
+- 4) **PEP8**
+I recommend pass your code through the on-line tool [ PEP8 checker](http://pep8online.com/)
+
+### I hope you find the feedback useful :smile:",11,2017-06-21T02:46:11.783Z,2017-06-21T02:46:11.783Z
+awesome,32117305,1825514,3576,Good work importing the modules. A module allows you to logically organize your Python code. Grouping related code into a module makes the code easier to understand and use.,6,2017-06-21T02:45:36.939Z,2017-06-21T02:45:36.939Z
+critical,32117305,1825511,3576,"## Comments effectively explain longer code procedures.
+____________________________
+The true value of commenting and having a clean code is that it makes our code easier to keep, reducing the time for other programmers to understand.
+
+- Please take the time to comment your **`Instances`** to meet the specs.",7,2017-06-21T02:44:02.329Z,2017-06-21T02:44:02.329Z
+awesome,32117305,1825508,3576,"Good job :smiley:, your code works pretty well and is error free :movie_camera:.",74,2017-06-21T02:42:10.596Z,2017-06-21T02:42:10.596Z
+nitpick,27403479,1688519,17283,"Please give more descriptive `id` names. 
+
+In this case, you could rename it to `@+id/business_event`",23,2017-05-20T21:37:50.609Z,2017-05-20T21:37:50.609Z
+awesome,27403479,1688517,17283,**Well done storing common resources inside their respective resource xml files!**,22,2017-05-20T21:37:19.389Z,2017-05-20T21:37:19.389Z
+awesome,27403479,1688516,17283,**Great job creating a custom style!**,20,2017-05-20T21:37:14.004Z,2017-05-20T21:37:14.004Z
+nitpick,28589114,1722054,10086,"### Code Quality :: Indentation Style Issue ###
+
+Please be consistent in indentation style. At the moment, there are mixes of tab and space indentation. See this screenshot (`.` (dot) represent space, `->` (arrow) represent tab indentation):
+
+![2017-05-28 16_57_27-● index.html - project 7 neighbourhood map new folder - Visual Studio Code.jpg](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/10086/1495954659/2017-05-28_16_57_27-__index.html_-_project_7_neighbourhood_map_new_folder_-_Visual_Studio_Code.jpg)
+
+Each code editor software has its own setting to help fixing this. Please research relevant information for your code editor to fix this issue.",1,2017-05-28T06:57:42.732Z,2017-05-28T06:57:42.732Z
+critical,28589114,1722053,10086,"### Code Quality ###
+Code doesn't pass [HTML Validator](https://validator.w3.org/#validate_by_input), see screenshot and please fix the addressed issues:
+
+
+![2017-05-28 16_56_40-Showing results for contents of text-input area - Nu Html Checker.jpg](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/10086/1495954609/2017-05-28_16_56_40-Showing_results_for_contents_of_text-input_area_-_Nu_Html_Checker.jpg)",0,2017-05-28T06:56:57.011Z,2017-05-28T06:56:57.011Z
+nitpick,28589114,1722034,10086,"### Code Quality ###
+This code block has inconsistent indentation",9,2017-05-28T06:50:41.333Z,2017-05-28T06:50:41.333Z
+nitpick,28589114,1722032,10086,"## Tip :zap: ##
+All ``<script>`` should be at the bottom of the HTML body for *Page Speed Optimization*.
+
+Just make sure to pay attention to the _order of `<script>` tag_, otherwise __the app may break__
+
+### Reference ###
+- Please refer to [Website Performance Optimization course @Udacity](https://www.udacity.com/course/viewer#!/c-ud884)",14,2017-05-28T06:50:35.323Z,2017-05-28T06:50:35.323Z
+awesome,28589114,1722031,10086,Nice job binding _KO observables_ to the DOM to manipulate them in an MVVM pattern!,38,2017-05-28T06:50:26.996Z,2017-05-28T06:50:29.217Z
 awesome,28341596,1715687,1392,"Dropping the pins on the map works perfectly! To go one step further and make your app stand out you can also support ""Hold and Drag"":
 
 Utilize the other [UIGestureRecognizer](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/index.html#//apple_ref/c/econst/UIGestureRecognizerStateBegan) states here.
@@ -368,6 +741,27 @@ That way your code becomes almost completely self-documenting because it will be
  
 See also resource referenced in Project Review.",25,2017-06-18T05:56:37.114Z,2017-06-18T05:56:37.114Z
 nitpick,31232709,1811819,39954,Note that all your xml layout files (with the exception of `activity_main`) are called `intent` but they would be better described as `activity_playlist`... because they are what we refer to as an activity in Android. `Intent` is part of the code you are using correctly...,6,2017-06-18T05:55:33.248Z,2017-06-18T05:55:33.248Z
+awesome,30040181,1772299,262,"Nice detail, links without the underline look a cleaner.
+:+1:",27,2017-06-08T15:16:23.091Z,2017-06-08T15:16:23.091Z
+nitpick,30040181,1772290,262,"This is more a matter of preference and convention, but typically classes and IDs are lowercase and when they contain two words a dash `-` is added. Like this:
+```
+.project-footer {
+  border-top: 1px solid hsla(0, 0%, 0%, 0.3);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+```
+
+Tip: If you rename a selector here, be sure to update the HTML too.",122,2017-06-08T15:15:06.086Z,2017-06-08T15:15:45.092Z
+nitpick,30528278,1786342,4015,"I don't think you have to select ""under the top bar"". Now I deselect all three and the view still presents fine.
+
+![Screen Shot 2017-06-12 at 8.36.55 AM.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/4015/1497271146/Screen_Shot_2017-06-12_at_8.36.55_AM.png)
+![Screen Shot 2017-06-12 at 8.37.04 AM.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/4015/1497271147/Screen_Shot_2017-06-12_at_8.37.04_AM.png)
+![Screen Shot 2017-06-12 at 8.37.10 AM.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/4015/1497271148/Screen_Shot_2017-06-12_at_8.37.10_AM.png)
+
+This is a conversation about what extended edge is. Take a look.
+https://stackoverflow.com/questions/26894642/what-is-the-extend-edge-property-in-uiviewcontroller-for",11,2017-06-12T12:40:16.852Z,2017-06-12T12:40:16.852Z
+awesome,27860432,1701881,7402,Excellent job adding in tests. This ensures your code is always working correctly as new features are added.,44,2017-05-23T15:47:40.203Z,2017-05-23T15:47:40.203Z
 nitpick,28603568,1722445,92996,"Have you heard about `RecyclerView`? It is a new way of displaying a list of items that works pretty well with the `ViewHolder pattern`. You could try it on your next project,  please, reference these links to find out advantages and more details:
 * https://guides.codepath.com/android/using-the-recyclerview
 * https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html",27,2017-05-28T10:22:40.043Z,2017-05-28T10:22:40.043Z
@@ -379,6 +773,19 @@ Also, merging `print` calls could make your program shorter:yum:",71,2017-06-30T
 awesome,33758690,1870355,32286,"I like seeing these docstrings when the module(.py file) imported by `import module_name` and called out by `help(module_name.method)`:smiley:, that makes programmers feel comfortable.
 
 ![pydoc.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/32286/1498806612/pydoc.png)",22,2017-06-30T07:10:18.590Z,2017-06-30T07:10:18.590Z
+critical,34377562,1881326,12966,"The widget looks cool and the motivational quote is a great. 
+
+The only thing left is displaying some relevant info. Check the **Project Review** for some suggestions.",34,2017-07-02T17:44:12.639Z,2017-07-02T17:44:12.639Z
+nitpick,28589115,1722038,10086,"### Code Quality ###
+Missing semicolon",334,2017-05-28T06:51:12.488Z,2017-05-28T06:57:13.049Z
+awesome,28589115,1722041,10086,Nice job with marker animation!,243,2017-05-28T06:51:22.321Z,2017-05-28T06:51:22.321Z
+awesome,28589115,1722036,10086,"## Tip :zap: ##
+One UX feature we can consider is to center marker when its active on `click` to provide better UX.
+
+One way to do this is to use `panTo` method.
+To implement this, study [this Simple `click` Event by Google](https://developers.google.com/maps/documentation/javascript/examples/event-simple)",127,2017-05-28T06:51:05.216Z,2017-05-28T06:51:05.216Z
+nitpick,28589115,1722035,10086,"### Code Quality ###
+This code block has inconsistent indentation",130,2017-05-28T06:51:00.908Z,2017-05-28T06:51:00.908Z
 critical,29126311,1738475,1456,"By following your steps, I get the following error:
 
 ![Screen Shot 2017-05-31 at 12.13.23.png](https://udacity-reviews-uploads.s3.amazonaws.com/_attachments/1456/1496258035/Screen_Shot_2017-05-31_at_12.13.23.png)
@@ -425,6 +832,14 @@ nitpick,31738828,1813681,63821,"根据[前端工程师纳米学位样式指南 -
 
 所以这一行建议这样 `body {`，注意中间有空格。其他类似的地方都建议改成这样。:)",0,2017-06-18T16:07:19.825Z,2017-06-18T16:07:19.825Z
 awesome,34774146,1889060,7560,"Awesome to check if this view has been recycled by the Android framework, to improve performances.",23,2017-07-04T04:04:22.888Z,2017-07-04T04:04:22.888Z
+awesome,34436360,1879850,42143,Correct!,152,2017-07-02T10:43:25.501Z,2017-07-02T10:43:25.501Z
+awesome,34436360,1879847,42143,Great work!,135,2017-07-02T10:43:00.230Z,2017-07-02T10:43:00.230Z
+nitpick,34436360,1879844,42143,You could implement the coordinate transformation as a separate function. This would make the code more readable and maintainable.,116,2017-07-02T10:42:09.122Z,2017-07-02T10:42:09.122Z
+nitpick,34436360,1879843,42143,I would strongly suggest you convert the velocity to m/s and do _all_ subsequent computations with this value.,92,2017-07-02T10:41:51.191Z,2017-07-02T10:41:51.191Z
+awesome,31170220,1800105,39954,Good `onUpgrade()` method.,52,2017-06-15T11:27:49.537Z,2017-06-15T11:27:49.537Z
+awesome,31170220,1800103,39954,Good `onCreate()` method.,44,2017-06-15T11:27:33.427Z,2017-06-15T11:27:33.427Z
+nitpick,31170220,1800102,39954,Making this a `double` makes a decimal possible..,38,2017-06-15T11:27:03.049Z,2017-06-15T11:27:17.499Z
+critical,31170220,1800101,39954,Of course something about the image should go here...,40,2017-06-15T11:26:43.667Z,2017-06-15T11:26:43.667Z
 awesome,33478639,1855190,641,Awesome job using lowercase hex values for your color codes :),9,2017-06-27T08:38:01.611Z,2017-06-27T08:38:01.611Z
 nitpick,33478639,1855189,641,always prefer to have double quotes for your property values :),6,2017-06-27T08:37:53.667Z,2017-06-27T08:37:53.667Z
 awesome,33975007,1866799,3383,Extra points for using **string resources**!,75,2017-06-29T14:36:36.655Z,2017-06-29T14:36:36.655Z
@@ -541,6 +956,7 @@ if foo == bar:
 Be sure to include comments that document your code!",30,2017-05-29T08:32:08.611Z,2017-05-29T08:32:08.611Z
 awesome,27815299,1726630,8026,"Overall, you're doing a good job instantiating movie objects, just be aware of the line length limit.",19,2017-05-29T08:31:46.024Z,2017-05-29T08:31:46.024Z
 nitpick,27815299,1726629,8026,"Python's style guide, [Pep8](https://www.python.org/dev/peps/pep-0008/), sets a [maximum line length](https://www.python.org/dev/peps/pep-0008/#maximum-line-length) of 80 characters. However, long urls are an exception to this rule. In this case, you should leave the url on a single line and use [the inline comment `# noqa`](http://stackoverflow.com/questions/5033727/how-do-i-get-pyflakes-to-ignore-a-statement) at the end of long urls to suppress linter warnings.",18,2017-05-29T08:31:39.881Z,2017-05-29T08:31:39.881Z
+awesome,31170231,1800050,39954,"Excellent use of this resource file, and it is well organized, makes it handy to make any modifications later.",30,2017-06-15T11:05:46.287Z,2017-06-15T11:05:46.287Z
 awesome,28341573,1717336,31271,非常好。添加了注释，让代码格式检查器忽略了长度警告。这是好的代码风格的开始，加油！,6,2017-05-26T22:44:45.067Z,2017-05-26T22:44:45.067Z
 awesome,28341573,1717333,31271,很棒！添加了说明性的注释。,1,2017-05-26T22:43:22.476Z,2017-05-26T22:43:22.476Z
 awesome,27815305,1726632,8026,Nice work on your readme!,13,2017-05-29T08:32:19.017Z,2017-05-29T08:32:19.017Z
@@ -565,6 +981,20 @@ nitpick,29911158,1763125,2802,"You can use a `trim()` to remove any trailing spa
 String Delhi1 = ET.getText().toString().trim();
 
 ```",62,2017-06-06T11:39:30.306Z,2017-06-06T11:39:30.306Z
+nitpick,27860439,1701829,7402,"By default, Java makes field variables ""package private"". What this means is any class in the package in which this class resides can access these fields. While this isn't a huge deal for this application, it can make a big difference in more complex applications. This can cause a lot of problems and make things hard to maintain and fix if you are accessing the field from multiple points in the code. Encapsulation(otherwise known as data hiding) is what allows you as a programmer to prevent other classes from directly reaching in and changing the state of your object. There are some times where you want to expose your fields , but unless you're writing a performance heavy application (like a video game), I would recommend always marking them as `private`. Another big exception is if your field is a primitive data type (`int`,` double`, `float`, etc..) and marked `public static final`. Because that variable cannot be changed, and is `static`, it's not that big of a deal to expose it.
+
+Marking your fields as `private` will provide some re-assurance that you haven't changed the variables in some other part of unrelated code resulting in odd behavior and hard to track bugs.
+
+```
+private OnRecipeStepClickListener mCallback;
+```
+
+You can read more about encapsulation here: http://knowledgearray.net/index.php/2016/11/30/theoryjava-encapsulation-concisely-explained-with-java/ and here: http://www.tutorialspoint.com/java/java_encapsulation.htm
+And access modifiers here: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html",27,2017-05-23T15:37:14.903Z,2017-05-23T15:37:14.903Z
+critical,31170227,1800052,39954,Add a `Button` here to reduce quantity by 1. You can use the way you handled it in the Detail View...,43,2017-06-15T11:06:42.491Z,2017-06-15T11:06:42.491Z
+awesome,34377553,1881348,12966,"Awesome idea to load the workouts with a `CursorLoader`. 
+
+This approach guarantees smooth UI thanks to performing the database queries in the background thread 😊",237,2017-07-02T17:52:23.467Z,2017-07-02T17:52:23.467Z
 critical,35192288,1903979,5939,"This will throw an error if we search for a book that has no authors.  You can replicate this by typing in ""dog"" or ""test"" for example.  You will get the following error in your logcat:
 
 > org.json.JSONException: No value for authors
@@ -578,9 +1008,116 @@ We can check if a JSONObject has a field or not by using the `.has()` method.  W
 like that!
 
 Another option is to use `optJSONArray()` instead of `getJSONArray()`.  This method is used to parse fields that may or may not be present, and won't throw a `JSONException` if it is not present :smile:",68,2017-07-06T20:22:11.778Z,2017-07-06T20:22:19.863Z
+awesome,34377544,1881356,12966,"You've made good use of the `AdMob` integration. The banner is displayed as intended 👍
+
+You've demonstrated a clever approach to free/paid flavors with the `Fragments`. Nice job!",33,2017-07-02T17:53:37.758Z,2017-07-02T17:54:36.848Z
+critical,28589113,1722052,10086,"### Code Quality ###
+Code is not readable yet. Indentation is not consistent in general.
+
+All inconsistent indentation must be fixed to help others reading, editing your code.
+
+Please refer to example below to help you re-indent the code.
+
+## Example
+
+```
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-top: 29px;
+  background-color: #786;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#map {
+  height: 700px;
+  width: 100%;
+}
+
+p {
+  margin-top: 0;
+  text-align: center;
+}
+
+#inputClass {
+  width: 90%;
+  margin-bottom: 20px;
+  text-indent: inherit;
+}
+
+.outputList {
+  width: 90%;
+  vertical-align: center;
+}
+
+a {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: block;
+  border: 3px solid #408;
+  font-weight: bold;
+}
+
+h1 {
+  color: #525454;
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* Won't be used here */
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#pano {
+  width: 200px;
+  height: 200px;
+}
+```",0,2017-05-28T06:56:25.240Z,2017-05-28T06:56:25.240Z
 awesome,35192289,1903977,5939,"Awesome, nice clear, concise, and consistently named variables!",13,2017-07-06T20:21:57.052Z,2017-07-06T20:21:57.052Z
 awesome,35192289,1903976,5939,Good POJO (Plain Old Java Object) model object here!,11,2017-07-06T20:21:50.626Z,2017-07-06T20:21:50.626Z
+nitpick,34377552,1881369,12966,"You don't have to explicitly declare the constructor if it should have **no args** and **empty body**. It will be provided by the Java language.
+ 
+Quote from [Java language reference](http://docs.oracle.com/javase/specs/jls/se7/html/jls-8.html#jls-8.8.9):
+>If a class contains no constructor declarations, then a default constructor with no formal parameters and no throws clause is implicitly declared.",26,2017-07-02T18:01:23.943Z,2017-07-02T18:01:23.943Z
 awesome,31232702,1811830,39954,Very good work with the `OnClickListener`s and the use of `Intent`.,29,2017-06-18T05:59:17.275Z,2017-06-18T05:59:17.275Z
+awesome,27234452,1683524,17283,Well done returning a `Cursor` Object here!,141,2017-05-19T14:51:21.682Z,2017-05-19T14:51:21.682Z
+nitpick,27234452,1683521,17283,You might want to add more clarity by modifying the method name to `getRandomInt`,232,2017-05-19T14:50:40.109Z,2017-05-19T14:50:40.109Z
+nitpick,27234452,1683519,17283,"Please consider renaming it, there's no logic to delete habits inside this method",192,2017-05-19T14:50:11.822Z,2017-05-19T14:50:11.822Z
 nitpick,28603562,1722455,92996,"It is worth taking a look at the `ViewHolder` pattern when implementing your next projects, making the scrolling through the list smoother is one of its advantages. You can read more about it [here](https://www.javacodegeeks.com/2013/09/android-viewholder-pattern-example.html).",27,2017-05-28T10:28:57.580Z,2017-05-28T10:28:57.580Z
 nitpick,31697437,1812577,1755,"In your future HTML you could consider marking all dates up with a [<time>](https://developer.mozilla.org/en/docs/Web/HTML/Element/time) tag. From MDN:
 
@@ -655,6 +1192,8 @@ Here is what the Udacity HTML style guide has to say about [sematics](https://ud
 >Use elements for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchor, etc. Using HTML according to its purpose is important for accessibility, reuse and code efficiency reasons.
 
 For instance, heading tags are [semantic](http://en.wikipedia.org/wiki/Semantic_Web) in the sense that `<h1>` defines the most important heading and `<h6>` defines the least important heading (not the size of the text). Therefore it's totally appropriate that the articles headline is an `<h1>`. And it also looks just like the mockup.",9,2017-06-18T11:05:49.795Z,2017-06-18T11:05:49.795Z
+awesome,30528264,1801496,63593,Nice touch having contribution coefficients for cost function terms. You should discuss how you arrived at their values in your report – I can only imagine it took a lot of work to find adequate values.,50,2017-06-15T18:57:53.951Z,2017-06-15T18:57:53.951Z
+nitpick,30528264,1801491,63593,Having reference value variables for the cross-tracking and direction errors feels a little redundant – it's hard to imagine a situation where you'd want errors to be different from zero.,81,2017-06-15T18:56:30.260Z,2017-06-15T18:56:30.260Z
 awesome,29388008,1747979,4839,Your README meets specifications. If you’d like to learn how to take your README to the next level you should take the  **[Udacity Writing READMEs course](https://www.udacity.com/course/writing-readmes--ud777)**,5,2017-06-02T21:21:34.739Z,2017-06-02T21:21:34.739Z
 nitpick,29388008,1747977,4839,"You could also add a link to a hosted version.  You can publish your site on GitHub.io by going into the ""Settings"" tab of your repo:
 
@@ -723,6 +1262,62 @@ ES6 introduces new syntax/concepts, such as:
 - [ECMAScript 6 Tutorial by ccoenraets](http://ccoenraets.github.io/es6-tutorial/)
 
 Note that ES6 is usually used with Babel compiler (and a build process, such as `webpack`, `gulp`, etc.) for browser compatability fallback. So you will also learn about them in the resources above.",0,2017-06-30T03:58:03.064Z,2017-06-30T03:58:03.064Z
+critical,27111285,1696647,397,Be sure to fix this heading to refer to the correct percentage (1%).,74,2017-05-22T16:48:23.389Z,2017-05-22T16:48:23.389Z
+critical,27111285,1696543,397,"Note that in your view definition you refer to three tables - log, articles, authors - but in your where clause you specify join criteria only between the log and articles tables.  So PostgreSQL will join EVERY row in the authors table to the rows that result from the log-articles join.  Since there are four authors in the authors table, you end up with four times as many rows as you should.  
+
+Sometimes this type of join is referred to as a ""cross join"" or ""Cartesian product"".  Take a look at section 7.2.1.1 in the PostgreSQL documentation page below:
+
+https://www.postgresql.org/docs/current/static/queries-table-expressions.html
+
+So it's an easy fix - just add join criteria between the articles and authors table, and you should get the correct answers.  (Hint, Ursula La Multa is first, with slightly over 500,000 views).",38,2017-05-22T16:12:42.858Z,2017-05-22T16:46:23.531Z
+nitpick,27111285,1696630,397,"Since we restrict the output to the first three rows, I would slightly modify the heading of this section to be ""Most popular three articles of all time:\n"".",23,2017-05-22T16:45:58.690Z,2017-05-22T16:45:58.690Z
+critical,27111285,1696591,397,"Two reasons why this SELECT statement doesn't return the correct results:
+
+Check the project specifications - we're looking for the days where more than 1% of the view requests resulted in errors, not 2.5%.  That's an easy fix.
+
+So here is the corrected result from the SELECT statement on lines 62 - 72:
+```
+news=> select http_failure.date as failure_date,
+news->                   http_success.date as success_date,
+news->                   http_success.count as success_count,
+news->                   http_failure.count as failure_count,
+news->                   (http_success.count + http_failure.count) as total,
+news->                   (http_failure.count / (http_success.count +
+news(>                   http_failure.count)) as failure_rate
+news->                   from http_failure, http_success
+news->                   where http_success.date = http_failure.date
+news->                   and (http_success.count + http_failure.count) * 0.01 <=
+news->                   http_failure.count;
+ failure_date | success_date | success_count | failure_count | total | failure_rate
+--------------+--------------+---------------+---------------+-------+--------------
+ 2016-07-17   | 2016-07-17   |         54642 |          1265 | 55907 |            0
+(1 row)
+```
+This is partially correct - there is only one day, July 17, where the error rate is above 1%.  But note the value returned in the failure_rate column.  PostgreSQL does integer division pretty much the same as how Python does it:
+```
+news=> select 1265 / (54642 + 1265);
+ ?column?
+----------
+        0
+(1 row)
+```
+So you need to convert some of the values to float; as you would do in Python - the correct value you get from dividing these values is in fact the correct percentage for that day:
+```
+news=> select 1265.0 / (54642.0 + 1265.0);
+        ?column?
+------------------------
+ 0.02262686246802725956
+(1 row)
+```
+I'll leave it to you as to how/what to convert to float, but here is some info that might help:
+
+http://www.postgresql-archive.org/GENERAL-dividing-integers-not-producing-decimal-fractions-td1869931.html#a1869932
+
+One more thing - even though there is only one correct answer to this section, be sure to include an ORDER BY clause in this SELECT statement, to order by the date value in ascending (default) order.",71,2017-05-22T16:36:26.803Z,2017-05-22T16:39:08.131Z
+critical,27111285,1696556,397,"Don't forget to sort these results in descending order, so that the author with the most views appears first.",40,2017-05-22T16:16:49.892Z,2017-05-22T16:16:49.892Z
+critical,34377636,1881332,12966,"It's one of the items which need the content descriptions to make the app accessible.
+
+For more inspiration, check out this [great video about the essence of accessibility](https://www.youtube.com/watch?v=SUXCrOq2vj0).",21,2017-07-02T17:46:47.384Z,2017-07-02T17:46:47.384Z
 nitpick,41215429,2099915,616,"### Structuring code
 
 You will learn how to organize your HTML as you progress and learn CSS as well. Otherwise, a great strategy is to indent nested elements with tabs. 
@@ -774,6 +1369,16 @@ awesome,41215429,2099904,616,"## File Type
 ### Great job submitting your work and including the `.html` extension!
                          
 This project is more about getting comfortable with code reviews themselves than a strict code review. Future reviews will be more detailed as the projects themselves become more detailed and strict on the requirements.",0,2017-08-08T20:01:58.511Z,2017-08-08T20:01:58.511Z
+awesome,27850190,1701240,46421,Great job with protecting against SQL injection!,48,2017-05-23T12:40:15.901Z,2017-05-23T12:40:15.901Z
+nitpick,27850190,1701239,46421,"Notice how, in general, each one of these functions follows a pattern?
+
+-> connect to database
+-> grab cursor
+-> execute
+-> commit
+-> close
+
+Can you think of a clever way to refactor your code based on this observation?",14,2017-05-23T12:40:02.552Z,2017-05-23T12:40:02.552Z
 awesome,35597112,1916495,10086,"## Did you know :zap:
 
 It is possible to perform data binding on `infowindow` to implement the MVVM pattern for `infowindow`'s content, too (though I'd still prefer the current method of using `InfoWindow.setContent`)
@@ -825,4 +1430,11 @@ awesome,35597112,1916492,10086,Excellent job showing / hiding `marker`s efficien
 nitpick,35597112,1916490,10086,"**App Functionality** allows logging the error warnings by jQuery, Javascript DOM methods or other libraries, but it's recommended that we utilize the MVVM pattern.
 I'd recommend to refactor your code to use MVVM pattern to log this warning to the UI by using [`text` binding](http://knockoutjs.com/documentation/text-binding.html)",7,2017-07-09T05:18:42.311Z,2017-07-09T05:18:42.311Z
 awesome,28341587,1715723,1392,A nicely organized constants file.,15,2017-05-26T14:17:38.701Z,2017-05-26T14:17:38.701Z
+nitpick,27920518,1703756,2640,"All this could be simplified to  
+
+
+```python
+
+maxQ = max(self.Q[state].values())
+```",89,2017-05-23T22:18:32.975Z,2017-05-23T22:18:32.975Z
 awesome,29388004,1748003,4839,HTML validates without error!,0,2017-06-02T21:26:04.015Z,2017-06-02T21:26:04.015Z
