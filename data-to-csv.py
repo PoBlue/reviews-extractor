@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from data_extractor import DESC_HEADERS_KEY, get_description_row_from_json, CONTENT_HEADERS_KEY, get_content_row_from_json
+from data_extractor import DESC_HEADERS_KEY, get_description_row_from_json, CONTENT_HEADERS_KEY, get_content_row_from_json, COMMENT_HEADERS_KEY, get_comment_row_from_json
 from utils import get_data_from_path, export_csv, list_file_name_with_extension
-from data import DESC_JSON_PATH, DESC_CSV_PATH, CONTENT_CSV_PATH, CONTENT_JSON_PATH
+from data import DESC_JSON_PATH, DESC_CSV_PATH, CONTENT_CSV_PATH, CONTENT_JSON_PATH, COMMENT_CSV_PATH, COMMENT_JSON_PATH
 
 
 def get_desc_row(_file_name):
@@ -30,6 +30,20 @@ def get_content_row(_file_name):
     return content_rows
 
 
+def get_comment_row(_file_name):
+    """
+    get comment row to create csv
+    """
+    print("comment csv --> %s" % _file_name)
+    comment_json_path = "example-data/comments/{0}".format(_file_name)
+    comment_json = get_data_from_path(comment_json_path)
+    comment_rows = []
+    for comment in comment_json:
+        comment_row = get_comment_row_from_json(comment)
+        comment_rows.append(comment_row)
+    return comment_rows
+
+
 def export_desc(_json_path, _csv_path):
     desc_files = list_file_name_with_extension(_json_path, "json")
 
@@ -52,9 +66,21 @@ def export_content(_json_path, _csv_path):
     export_csv(CONTENT_HEADERS_KEY, csv_rows, _csv_path)
 
 
+def export_comment(_json_path, _csv_path):
+    comment_files = list_file_name_with_extension(_json_path, "json")
+
+    csv_rows = []
+    for file_name in comment_files:
+        rows = get_comment_row(file_name)
+        csv_rows.extend(rows)
+    
+    export_csv(COMMENT_HEADERS_KEY, csv_rows, _csv_path)
+
+
 def main():
     # export_desc(DESC_JSON_PATH, DESC_CSV_PATH)
-    export_content(CONTENT_JSON_PATH, CONTENT_CSV_PATH)
+    # export_content(CONTENT_JSON_PATH, CONTENT_CSV_PATH)
+    export_comment(COMMENT_JSON_PATH, COMMENT_CSV_PATH)
 
 
 main()
