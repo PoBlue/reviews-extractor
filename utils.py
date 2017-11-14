@@ -1,15 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import json
 import csv
 import glob, os
 
 # save json data to file
 def save_data_to_path(path, data):
-    with open(path, 'w') as outfile:
+    with open(path, 'w', encoding='utf-8') as outfile:
         json.dump(data, outfile)
 
 
 def get_data_from_path(path):
-    with open(path) as json_file:  
+    with open(path, encoding='utf-8') as json_file:  
         data = json.load(json_file)
         return data
 
@@ -22,7 +24,7 @@ def export_csv(_headers, _rows, _path):
     ]
     _header: [a, b, c]
     """
-    with open(_path, 'w') as f:
+    with open(_path, 'w', encoding='utf-8') as f:
         f_csv = csv.writer(f)
         f_csv.writerow(_headers)
         f_csv.writerows(_rows)

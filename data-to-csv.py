@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from data_extractor import headers_key, get_description_row_from_json
 from utils import get_data_from_path, export_csv, list_file_name_with_extension
 from data import DESC_JSON_PATH, DESC_CSV_PATH
