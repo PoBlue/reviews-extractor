@@ -1,5 +1,5 @@
 # reviews-extractor
-Extractor for review crawler
+Extractor for review crawler，[效果图](https://github.com/PoBlue/reviews-extractor/issues/2)
 
 ## 环境
 - python 3
