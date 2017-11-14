@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from data_extractor import headers_key, get_description_row_from_json
+from data_extractor import DESC_HEADERS_KEY, get_description_row_from_json
 from utils import get_data_from_path, export_csv, list_file_name_with_extension
 from data import DESC_JSON_PATH, DESC_CSV_PATH
 
@@ -20,8 +20,11 @@ def export_desc(_json_path, _csv_path):
         row = get_desc_row(file_name)
         rows.append(row)
 
-    export_csv(headers_key, rows, _csv_path)
+    export_csv(DESC_HEADERS_KEY, rows, _csv_path)
 
 
-export_desc(DESC_JSON_PATH, DESC_CSV_PATH)
-# get_desc_row("786705.json")
+def main():
+    export_desc(DESC_JSON_PATH, DESC_CSV_PATH)
+
+
+# main()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-headers_key = [
+DESC_HEADERS_KEY = [
     'id',
     'user_id',
     'archive_url',
@@ -40,3 +40,17 @@ def get_description_row_from_json(_json):
         _json['created_at'],
         _json['completed_at'],
     )
+
+"""
+    {
+        "submission_id": 511437,
+        "id": 27815301,
+        "sha": "7bfb8e95ac2ccf7ff048c278cc13ce06057d1d57",
+        "path": "fresh_tomatoes.py",
+        "size": 5463,
+        "blob": "https://udacity-reviews-uploads.s3-us-west-2.amazonaws.com/_git_blobs/7b/fb/8e95ac2ccf7ff048c278cc13ce06057d1d57",
+        "created_at": "2017-05-23T04:30:07.242Z",
+        "updated_at": "2017-05-23T04:30:07.242Z",
+        "comments_count": 1
+    },
+"""
