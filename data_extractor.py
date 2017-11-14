@@ -54,3 +54,29 @@ def get_description_row_from_json(_json):
         "comments_count": 1
     },
 """
+
+CONTENT_HEADERS_KEY = [
+    'submission_id',
+    'id',
+    'sha',
+    'path',
+    'size',
+    'blob',
+    'created_at',
+    'updated_at',
+    'comments_count',
+]
+
+
+def get_content_row_from_json(_json):
+    return (
+        _json['submission_id'],
+        _json['id'],
+        _json['sha'],
+        _json['path'],
+        _json['size'],
+        _json['blob'],
+        _json['created_at'],
+        _json['updated_at'],
+        _json['comments_count'],
+    )
