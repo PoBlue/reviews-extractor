@@ -5,7 +5,7 @@ Extractor for review crawler
 - python 3
 
 ## 如何运行
-1. 新建 `data.py` 文件，设置好参数：阅读[配置参数](https://github.com/PoBlue/reviews-extractor/issues/4)
+1. 打开 `data.py` 文件，设置好参数，参考下面的【配置参数】章节
 2. 运行下面代码
 ```
 python data-to-csv.py
@@ -17,7 +17,7 @@ python data-to-csv.py
 
 ### 配置参数
 
-在项目的根目录添加 `data.py` 文件
+打开 `data.py` 文件
 
 复制下面的代码并放进去
 ```python
@@ -42,5 +42,5 @@ COMMENT_CSV_PATH = REVIEW_ROOT_CSV_PATH + "comment.csv"
 1. `REVIEW_ROOT_JSON_PATH`, 这个是指向存储已爬取的 review 数据的相对路径
 2. `REVIEW_ROOT_CSV_PATH `，这个是指向导出 csv 的相对路径
 
-可以 clone 项目后直接，复制这段代码进去新建的 `data.py`，不用改直接运行，尝试一下，里面已经有 `example-data/` 的了
+可以 clone 项目后直接不用改，直接运行，尝试一下，里面已经有 `example-data/` 的了
 
