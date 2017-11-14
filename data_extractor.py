@@ -41,6 +41,7 @@ def get_description_row_from_json(_json):
         _json['completed_at'],
     )
 
+
 """
     {
         "submission_id": 511437,
@@ -54,7 +55,6 @@ def get_description_row_from_json(_json):
         "comments_count": 1
     },
 """
-
 CONTENT_HEADERS_KEY = [
     'submission_id',
     'id',
@@ -79,4 +79,41 @@ def get_content_row_from_json(_json):
         _json['created_at'],
         _json['updated_at'],
         _json['comments_count'],
+    )
+
+
+"""
+    {
+        "category": "awesome",
+        "content_id": 27758935,
+        "id": 1698559,
+        "user_id": 25252,
+        "body": "Nice job using `discrete_distibution` to resample the particles proportional to their weights.\n\nAnother option would be to implement the `resampling wheel` discussed by Sebastian Thrun in the [Python Particle Filters lesson](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/2c318113-724b-4f9f-860c-cb334e6e4ad7/lessons/48704330/concepts/487480820923).",
+        "position": 185,
+        "created_at": "2017-05-22T22:42:43.921Z",
+        "updated_at": "2017-05-22T22:42:43.921Z"
+    },
+"""
+COMMENT_HEADERS_KEY = [
+    'category',
+    'content_id',
+    'id',
+    'user_id',
+    'body',
+    'position',
+    'created_at',
+    'updated_at',
+]
+
+
+def get_comment_row_from_json(_json):
+    return (
+        _json['category'],
+        _json['content_id'],
+        _json['id'],
+        _json['user_id'],
+        _json['body'],
+        _json['position'],
+        _json['created_at'],
+        _json['updated_at'],
     )
