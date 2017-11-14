@@ -30,7 +30,9 @@ def export_csv(_headers, _rows, _path):
 
 def list_file_name_with_extension(path, extension):
     """list all file name with extension"""
+    oldpwd = os.getcwd()
     os.chdir(path)
     files = glob.glob("*.%s"%(extension)) 
+    os.chdir(oldpwd)
     return files
 
