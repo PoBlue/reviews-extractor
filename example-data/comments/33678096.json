@@ -1,1 +1,0 @@
-[{"category": "critical", "content_id": 33678096, "id": 1858037, "user_id": 9503, "body": "It is missing an else statement in your code.\n\nYou could add an Else statement here or in lines 34, 40, 46 or 52.", "position": 27, "created_at": "2017-06-27T21:34:57.454Z", "updated_at": "2017-06-27T21:34:57.454Z"}]

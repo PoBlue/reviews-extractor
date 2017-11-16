@@ -4,6 +4,7 @@ import json
 import csv
 import glob, os
 
+
 # save json data to file
 def save_data_to_path(path, data):
     with open(path, 'w', encoding='utf-8') as outfile:
@@ -11,7 +12,7 @@ def save_data_to_path(path, data):
 
 
 def get_data_from_path(path):
-    with open(path, encoding='utf-8') as json_file:  
+    with open(path, encoding='utf-8') as json_file:
         data = json.load(json_file)
         return data
 

@@ -1,1 +1,0 @@
-[{"category": "nitpick", "content_id": 28603566, "id": 1722452, "user_id": 92996, "body": "The class name should be \"NewsLoader\" without underscore and following the [UpperCamelCase](https://google.github.io/styleguide/javaguide.html#s5.3-camel-case) notation.", "position": 11, "created_at": "2017-05-28T10:27:45.906Z", "updated_at": "2017-05-28T10:27:45.906Z"}]

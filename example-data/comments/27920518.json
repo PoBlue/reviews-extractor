@@ -1,1 +1,0 @@
-[{"category": "nitpick", "content_id": 27920518, "id": 1703756, "user_id": 2640, "body": "All this could be simplified to  \n\n\n```python\n\nmaxQ = max(self.Q[state].values())\n```", "position": 89, "created_at": "2017-05-23T22:18:32.975Z", "updated_at": "2017-05-23T22:18:32.975Z"}]
