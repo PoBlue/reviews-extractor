@@ -26,16 +26,22 @@ python data-to-csv.py 2
 
 # set path to get json
 REVIEW_ROOT_JSON_PATH = "example-data/"
-DESC_JSON_PATH = REVIEW_ROOT_JSON_PATH + "description/"
-CONTENT_JSON_PATH =  REVIEW_ROOT_JSON_PATH + "contents/"
-COMMENT_JSON_PATH = REVIEW_ROOT_JSON_PATH + "comments/"
+DESC_JSON_PATH = "description/"
+CONTENT_JSON_PATH = "contents/"
+COMMENT_JSON_PATH = "comments/"
+CRITIQUE_JSON_PATH = "critiques/"
 
 
 # set path to export csv
-REVIEW_ROOT_CSV_PATH = "review-csv/" 
-DESC_CSV_PATH = REVIEW_ROOT_CSV_PATH + "description.csv"
-CONTENT_CSV_PATH = REVIEW_ROOT_CSV_PATH + "content.csv"
-COMMENT_CSV_PATH = REVIEW_ROOT_CSV_PATH + "comment.csv"
+REVIEW_ROOT_CSV_PATH = "review-csv/"
+DESC_CSV_PATH = "description.csv"
+CONTENT_CSV_PATH = "content.csv"
+COMMENT_CSV_PATH = "comment.csv"
+CRITIQUE_CSV_PATH = "critique.csv"
+
+# set path for one review feature
+ONE_REVIEW_ROOT_JSON_PATH = "/Users/moweiquan/Desktop/review-crawler/one-review/"
+ONE_REVIEW_CSV_JSON_PATH = "one-review-csv/"
 ```
 
 主要可以修改的设置有以下：
