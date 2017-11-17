@@ -8,7 +8,7 @@ Extractor for review crawler，[效果图](https://github.com/PoBlue/reviews-ext
 1. 打开 `data.py` 文件，设置好参数，参考下面的【配置参数】章节
 2. 运行下面代码
 ```
-python data-to-csv.py
+python data-to-csv.py 2
 ```
 3. 在 `review-csv` 就能见到新生成的 csv 了，have fun ; )
 
