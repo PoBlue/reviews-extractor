@@ -1,8 +1,23 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from data_extractor import DESC_HEADERS_KEY, get_description_row_from_json, CONTENT_HEADERS_KEY, get_content_row_from_json, COMMENT_HEADERS_KEY, get_comment_row_from_json
+import sys
+from data_extractor import DESC_HEADERS_KEY, get_description_row_from_json, CONTENT_HEADERS_KEY, get_content_row_from_json, COMMENT_HEADERS_KEY, get_comment_row_from_json, CRITIQUE_HEADERS_KEY, get_critique_row_from_json
 from utils import get_data_from_path, export_csv, list_file_name_with_extension
-from data import DESC_JSON_PATH, DESC_CSV_PATH, CONTENT_CSV_PATH, CONTENT_JSON_PATH, COMMENT_CSV_PATH, COMMENT_JSON_PATH, REVIEW_ROOT_JSON_PATH
+from data import DESC_JSON_PATH, DESC_CSV_PATH, CONTENT_CSV_PATH, CONTENT_JSON_PATH, COMMENT_CSV_PATH, COMMENT_JSON_PATH, REVIEW_ROOT_JSON_PATH, CRITIQUE_CSV_PATH, CRITIQUE_JSON_PATH, REVIEW_ROOT_CSV_PATH, ONE_REVIEW_ROOT_JSON_PATH, ONE_REVIEW_CSV_JSON_PATH
+
+
+def get_critique_row(_file_name):
+    """
+    get critique row to create csv
+    """
+    print("critique csv --> %s" % _file_name)
+    critique_json_path = CRITIQUE_JSON_PATH + _file_name
+    critique_json = get_data_from_path(critique_json_path)
+    critique_rows = []
+    for critique in critique_json:
+        critique_row = get_critique_row_from_json(critique)
+        critique_rows.append(critique_row)
+    return critique_rows
 
 
 def get_desc_row(_file_name):
@@ -44,6 +59,17 @@ def get_comment_row(_file_name):
     return comment_rows
 
 
+def export_critique(_json_path, _csv_path):
+    critique_files = list_file_name_with_extension(_json_path, "json")
+
+    csv_rows = []
+    for file_name in critique_files:
+        rows = get_critique_row(file_name)
+        csv_rows.extend(rows)
+
+    export_csv(CRITIQUE_HEADERS_KEY, csv_rows, _csv_path)
+
+
 def export_desc(_json_path, _csv_path):
     desc_files = list_file_name_with_extension(_json_path, "json")
 
@@ -77,10 +103,26 @@ def export_comment(_json_path, _csv_path):
     export_csv(COMMENT_HEADERS_KEY, csv_rows, _csv_path)
 
 
+def export_review(_json_path, _csv_path):
+    export_desc(_json_path + DESC_JSON_PATH, _csv_path + DESC_CSV_PATH)
+    export_content(_json_path + CONTENT_JSON_PATH, _csv_path + CONTENT_CSV_PATH)
+    export_comment(_json_path + COMMENT_JSON_PATH, _csv_path + COMMENT_CSV_PATH)
+    export_critique(_json_path + CRITIQUE_JSON_PATH, _csv_path + CRITIQUE_CSV_PATH)
+
+
 def main():
-    export_desc(DESC_JSON_PATH, DESC_CSV_PATH)
-    export_content(CONTENT_JSON_PATH, CONTENT_CSV_PATH)
-    export_comment(COMMENT_JSON_PATH, COMMENT_CSV_PATH)
+    arguments = sys.argv[1:]
+    if not arguments:
+        print("please offer argument: 1 for one review, 2 for all reviews")
+        return
+    if arguments[0].strip() == '1':
+        export_review(ONE_REVIEW_ROOT_JSON_PATH, ONE_REVIEW_CSV_JSON_PATH)
+    elif arguments[0].strip() == '2':
+        export_review(REVIEW_ROOT_JSON_PATH, REVIEW_ROOT_CSV_PATH)
+    else:
+        print("please offer argument: 1 for one review, 2 for all reviews")
 
 
-main()
+if __name__ == '__main__':
+    main()
+
