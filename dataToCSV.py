@@ -39,6 +39,9 @@ def get_content_row(_file_name, _path):
     content_json = get_data_from_path(content_json_path)
     content_rows = []
     for content in content_json:
+        # filter content that the commments count is 0 
+        if(content['comments_count'] == 0):
+            continue
         content_row = get_content_row_from_json(content)
         content_rows.append(content_row)
     return content_rows
