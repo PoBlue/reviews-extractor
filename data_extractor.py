@@ -8,8 +8,7 @@ DESC_HEADERS_KEY = [
     'general_comment',
     'language',
     'project_id',
-    'project_name',
-    'grader_name',
+    'grader_id',
     'review_url',
     'is_training',
     'result_reason',
@@ -31,9 +30,7 @@ def get_description_row_from_json(_json):
         _json['archive_url'],
         _json['general_comment'],
         _json['language'],
-        _json['project_id'],
-        _json['project']['name'],
-        _json['grader']['name'],
+        _json['grader_id'],
         url,
         _json['is_training'],
         _json['result_reason'],
@@ -62,8 +59,6 @@ CONTENT_HEADERS_KEY = [
     'path',
     'size',
     'blob',
-    'created_at',
-    'updated_at',
     'comments_count',
 ]
 
@@ -76,8 +71,6 @@ def get_content_row_from_json(_json):
         _json['path'],
         _json['size'],
         _json['blob'],
-        _json['created_at'],
-        _json['updated_at'],
         _json['comments_count'],
     )
 

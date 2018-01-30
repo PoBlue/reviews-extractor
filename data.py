@@ -10,7 +10,7 @@ CRITIQUE_JSON_PATH = "critiques/"
 
 
 # set path to export csv
-REVIEW_ROOT_CSV_PATH = "review-csv/"
+REVIEW_ROOT_CSV_PATH = "/Users/moweiquan/Desktop/review-csv/"
 DESC_CSV_PATH = "description.csv"
 CONTENT_CSV_PATH = "content.csv"
 COMMENT_CSV_PATH = "comment.csv"
