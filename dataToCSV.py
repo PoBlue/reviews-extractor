@@ -14,6 +14,9 @@ def get_critique_row(_file_name, _path):
     critique_json = get_data_from_path(critique_json_path)
     critique_rows = []
     for critique in critique_json:
+        # filter critique which is none
+        if not critique['observation']:
+            continue
         critique_row = get_critique_row_from_json(critique)
         critique_rows.append(critique_row)
     return critique_rows
